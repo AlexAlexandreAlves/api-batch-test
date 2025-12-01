@@ -8,3 +8,6 @@ tests/__pycache__/
 api-batch-test/src/__pycache__/*
 api-batch-test/tests/__pycache__/*
 api-batch-test/tests/data/__pycache__/*
+api-batch-test/tests/helpers/__pycache__/*
+api-batch-test/tests/schemas/__pycache__/*
+api-batch-test/config/__pycache__/settings.cpython-314.pyc
