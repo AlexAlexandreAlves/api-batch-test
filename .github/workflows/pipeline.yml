@@ -1,0 +1,40 @@
+name: CI - Pytest pipeline
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: api-batch-test
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.14"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r api-batch-test/requirements.txt
+
+      - name: Run test_activities.py
+        run: |
+          pytest api-batch-test/tests/test_activities.py
+
+      - name: Upload test report artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-report-html
+          path: reports/html1-report.html
+          retention-days: 30
+     
+  

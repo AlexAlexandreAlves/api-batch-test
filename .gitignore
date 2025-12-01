@@ -1,0 +1,10 @@
+api-batch-test/reports/html1-report.html
+.pytest_cache/
+bin
+include/
+lib
+src/__pycache__
+tests/__pycache__/
+api-batch-test/src/__pycache__/*
+api-batch-test/tests/__pycache__/*
+api-batch-test/tests/data/__pycache__/*
