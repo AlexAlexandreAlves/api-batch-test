@@ -1,5 +1,9 @@
 pytest
-requests
+pytest-xdist
 pytest-reporter-html1
 mypy
 psycopg2-binary
+jsonschema
+python-dotenv
+vcrpy
+pytest-recording
