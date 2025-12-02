@@ -12,5 +12,6 @@ def test_people_page_schema(http):
     data = r.json()
     validate(instance=data, schema=PAGE_SCHEMA)
     assert isinstance(data["results"], list)
+    assert data["count"] == 82
     for item in data["results"]:
         validate(instance=item, schema=PEOPLE_ITEM_SCHEMA)

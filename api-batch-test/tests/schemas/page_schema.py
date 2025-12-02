@@ -7,5 +7,5 @@ PAGE_SCHEMA = {
         "previous": {"type": ["string", "null"]},
         "results": {"type": "array"},
     },
-    "additionalProperties": True,
+    "additionalProperties": False,
 }
