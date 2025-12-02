@@ -8,7 +8,7 @@ from tests.schemas.people_schema import PEOPLE_ITEM_SCHEMA
 import pytest
 
 
-@pytest.mark.contract
+@pytest.mark.heavy
 @pytest.mark.pagination
 def test_people_pagination_integrity(http):
     total_count = None

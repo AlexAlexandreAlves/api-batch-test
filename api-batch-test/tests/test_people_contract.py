@@ -15,3 +15,13 @@ def test_people_page_schema(http):
     assert data["count"] == 82
     for item in data["results"]:
         validate(instance=item, schema=PEOPLE_ITEM_SCHEMA)
+        
+        
+
+@pytest.mark.contract
+def test_people_page_schema_by_id(http):
+    r = http.get(Endpoints.PEOPLE + "1")
+    r.raise_for_status()
+    data = r.json()
+    validate(instance=data, schema=PEOPLE_ITEM_SCHEMA)
+    assert isinstance(data, object)
