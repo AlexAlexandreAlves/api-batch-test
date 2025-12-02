@@ -2,10 +2,12 @@ from jsonschema import validate
 from tests.schemas.page_schema import PAGE_SCHEMA
 from tests.schemas.people_schema import PEOPLE_ITEM_SCHEMA
 import pytest
+from src.api_endpoints import Endpoints
+
 
 @pytest.mark.contract
 def test_people_page_schema(http):
-    r = http.get("/people/")
+    r = http.get(Endpoints.PEOPLE)
     r.raise_for_status()
     data = r.json()
     validate(instance=data, schema=PAGE_SCHEMA)
