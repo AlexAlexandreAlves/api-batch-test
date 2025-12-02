@@ -1,18 +1,16 @@
-# Pytest API Framework
+# Api Batch Test Framework
 
-A comprehensive testing framework built with Python and Pytest for API testing and database operations using PostgreSQL.
+A comprehensive testing framework built with Python and Pytest for API testing in huge scale.
 
 ## 📋 Project Overview
 
-This project provides a robust framework for testing REST APIs and PostgreSQL database operations. It combines API client utilities with database connection management, following Python best practices and Pytest conventions.
+This project provides a robust framework for testing REST. It follows Python best practices and Pytest conventions.
 
 ### Key Features
 
 - **API Testing**: Client abstraction for REST API endpoints (GET, POST, PUT, DELETE)
-- **Database Operations**: Connection pooling and utility methods for PostgreSQL interactions
 - **Test Fixtures**: Reusable Pytest fixtures for API client and database connections
 - **Type Hints**: Full type annotations for better IDE support and code clarity
-- **Docker Support**: Pre-configured PostgreSQL container with initialization scripts
 - **Error Handling**: Comprehensive error handling and logging throughout the framework
 
 ## 🏗️ Architecture

@@ -1,0 +1,5 @@
+{
+  "python.testing.pytestEnabled": true,
+  "python.testing.cwd": "${workspaceFolder}/api-batch-test",
+  "python.testing.pytestArgs": ["tests"]
+}

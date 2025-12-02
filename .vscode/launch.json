@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Debug pytest (test_smoke)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["-s", "tests/test_smoke.py"],
+      "cwd": "${workspaceFolder}/api-batch-test",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
