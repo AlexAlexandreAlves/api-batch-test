@@ -41,6 +41,9 @@ class APIClient:
         """Constrói a URL completa formatando parametros de caminho."""
         if path_params:
             endpoint = endpoint.format(**path_params)
+        # Se já é uma URL completa, retorna como está
+        if endpoint.startswith("http://") or endpoint.startswith("https://"):
+            return endpoint
         return f"{self.base_url}/{endpoint.lstrip('/')}"
 
     def get(self, endpoint: str, params=None, **kwargs) -> requests.Response:

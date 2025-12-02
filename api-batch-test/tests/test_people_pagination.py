@@ -1,4 +1,6 @@
 from tests.helpers.pagination import iter_pages
+from src.api_endpoints import Endpoints
+
 import pytest
 
 @pytest.mark.pagination
@@ -8,7 +10,7 @@ def test_people_pagination_integrity(http):
     total_items = 0
     page_index = 0
 
-    for page in iter_pages(http, "/people/"):
+    for page in iter_pages(http, Endpoints.PEOPLE):
         if total_count is None:
             total_count = page["count"]
             assert page["previous"] is None
