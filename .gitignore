@@ -12,3 +12,4 @@ api-batch-test/tests/helpers/__pycache__/*
 api-batch-test/tests/schemas/__pycache__/*
 api-batch-test/config/__pycache__/settings.cpython-314.pyc
 reports/html1-report.html
+api-batch-test/tests/smoke/__pycache__/test_smoke.cpython-314-pytest-9.0.1.pyc
