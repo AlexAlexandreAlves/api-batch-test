@@ -1,6 +1,7 @@
 pytest
 pytest-xdist
 pytest-reporter-html1
+pytest-sugar
 mypy
 psycopg2-binary
 jsonschema

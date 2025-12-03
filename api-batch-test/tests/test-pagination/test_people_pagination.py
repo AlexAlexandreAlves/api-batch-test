@@ -1,9 +1,9 @@
-from tests.helpers.pagination import iter_pages
+from src.helpers.pagination import iter_pages
 from src.api_endpoints import Endpoints
 
 from jsonschema import validate
-from tests.schemas.page_schema import PAGE_SCHEMA
-from tests.schemas.people_schema import PEOPLE_ITEM_SCHEMA
+from src.schemas.page_schema import PAGE_SCHEMA
+from src.schemas.people_schema import PEOPLE_ITEM_SCHEMA
 
 import pytest
 

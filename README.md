@@ -9,7 +9,7 @@ This project provides a robust framework for testing REST. It follows Python bes
 ### Key Features
 
 - **API Testing**: Client abstraction for REST API endpoints (GET, POST, PUT, DELETE)
-- **Test Fixtures**: Reusable Pytest fixtures for API client and database connections
+- **Test Fixtures**: Reusable Pytest fixtures for API client
 - **Type Hints**: Full type annotations for better IDE support and code clarity
 - **Error Handling**: Comprehensive error handling and logging throughout the framework
 
@@ -18,25 +18,31 @@ This project provides a robust framework for testing REST. It follows Python bes
 ### Project Structure
 
 ```
-pytest-api-framework/
-├── api-framework/
+API-BATCH-TEST/
+├── api-batch-test/
+│   ├── config/                   # Configuration files   
 │   ├── src/
-│   │   ├── __init__.py
+│   │   ├── helpers/              # Helper functions for tests
+│   │   ├── schemas/              # JSON schemas for response validation
 │   │   ├── api_client.py         # REST API client abstraction
-│   │   ├── api_endpoints.py      # API endpoint definitions
-│   │   └── database.py           # PostgreSQL connection management
+│   │   └── api_endpoints.py      # API endpoint definitions
+│   │
 │   ├── tests/
-│   │   ├── conftest.py           # Pytest fixtures and configuration
-│   │   ├── test_db_connection.py # Database tests
-│   │   ├── test_activities.py    # API endpoint tests
-│   │   └── data/
-│   │       └── activities.py     # Test data definitions
-│   ├── reports/                  # Generated test reports
-│   ├── requirements.txt          # Python dependencies
-│   └── pytest.ini               # Pytest configuration
-├── docker/
-│   ├── docker-compose.yml       # PostgreSQL container setup
-│   └── init.sql                 # Database initialization script
+│   │   ├── cassettes/            # VCR.py cassettes for recorded HTTP interactions
+│   │   ├── data/                 # Test data files
+│   │   ├── test-contract/        # Contract tests
+│   │   ├── test-negative/        # Negative tests
+│   │   ├── test-pagination/      # Pagination tests
+│   │   ├── test-smoke/           # Smoke tests
+│   │   └── conftest.py           # Pytest fixtures and configuration
+│   │
+│   ├── pyproject.toml            # Project metadata and dependencies
+│   ├── pyvenv.cfg                # Virtual environment configuration
+│   └── requirements.txt          # Python dependencies
+│   
+├── reports/                      # Test reports
+├── mypy.ini                      # Mypy configuration
+├── pytest.ini                    # Pytest configuration
 └── README.md
 ```
 
