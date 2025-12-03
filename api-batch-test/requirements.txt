@@ -6,4 +6,3 @@ psycopg2-binary
 jsonschema
 python-dotenv
 vcrpy
-pytest-recording

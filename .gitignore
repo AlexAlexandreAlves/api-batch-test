@@ -11,3 +11,4 @@ api-batch-test/tests/data/__pycache__/*
 api-batch-test/tests/helpers/__pycache__/*
 api-batch-test/tests/schemas/__pycache__/*
 api-batch-test/config/__pycache__/settings.cpython-314.pyc
+reports/html1-report.html
