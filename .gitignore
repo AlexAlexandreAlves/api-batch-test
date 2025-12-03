@@ -12,4 +12,8 @@ api-batch-test/tests/helpers/__pycache__/*
 api-batch-test/tests/schemas/__pycache__/*
 api-batch-test/config/__pycache__/settings.cpython-314.pyc
 reports/html1-report.html
-api-batch-test/tests/smoke/__pycache__/test_smoke.cpython-314-pytest-9.0.1.pyc
+api-batch-test/tests/contract/__pycache__/test_people_contract.cpython-314-pytest-9.0.1.pyc
+api-batch-test/tests/test-contract/__pycache__/test_people_contract.cpython-314-pytest-9.0.1.pyc
+api-batch-test/tests/test-negative/__pycache__/test_negative.cpython-314-pytest-9.0.1.pyc
+api-batch-test/tests/test-pagination/__pycache__/test_people_pagination.cpython-314-pytest-9.0.1.pyc
+api-batch-test/tests/test-smoke/__pycache__/test_smoke.cpython-314-pytest-9.0.1.pyc
