@@ -57,109 +57,9 @@ Provides a simple abstraction for HTTP operations:
 
 Supports URL path parameters and query strings.
 
-#### 2. **Database Connection** (`src/database.py`)
-Manages PostgreSQL connections with connection pooling:
-- `execute_query()` - Fetch multiple rows as tuples
-- `execute_query_one()` - Fetch a single row
-- `execute_query_dict()` - Fetch rows as dictionaries
-- `execute_update()` - Insert, update, or delete operations
-- `execute_many()` - Batch operations
-- Context manager support for safe connection handling
-
-Features:
-- Connection pooling (SimpleConnectionPool)
-- Automatic commit/rollback
-- SQL injection prevention via parameterized queries
-- Type hints and comprehensive docstrings
-
-#### 3. **Pytest Fixtures** (`tests/conftest.py`)
+#### 2. **Pytest Fixtures** (`tests/conftest.py`)
 Reusable test fixtures:
-- `api_client` - Pre-configured REST API client (module scope)
-- `db_connection` - PostgreSQL connection instance (module scope)
-
-## 🐳 Docker Setup for Database Testing
-
-### Prerequisites
-- Docker and Docker Compose installed
-- No need to install PostgreSQL locally
-
-### Quick Start
-
-1. **Start the PostgreSQL Container**
-
-```bash
-cd docker
-docker-compose up -d
-```
-
-This will:
-- Create a PostgreSQL container with credentials:
-  - **User**: `user`
-  - **Password**: `1234`
-  - **Database**: `testdb`
-  - **Port**: `5432`
-- Initialize the database with sample data from `init.sql`
-
-2. **Verify the Container is Running**
-
-```bash
-docker-compose ps
-```
-
-3. **Access the Database** (optional)
-
-```bash
-docker-compose exec db psql -U user -d testdb
-```
-
-### Database Schema
-
-The initialization script (`docker/init.sql`) creates the following table:
-
-```sql
-CREATE TABLE people (
-    id SERIAL PRIMARY KEY,
-    fname VARCHAR(100),
-    age INT
-);
-```
-
-**Sample Data**:
-```
-id | fname   | age
----|---------|-----
-1  | Alice   | 30
-2  | Bob     | 25
-3  | Charlie | 35
-```
-
-### Environment Configuration
-
-Update `tests/conftest.py` with your PostgreSQL credentials:
-
-```python
-@pytest.fixture(scope="module")
-def db_connection():
-    db = DatabaseConnection(
-        host="localhost",        # Change if Docker is on different host
-        database="testdb",       # Match POSTGRES_DB from docker-compose.yml
-        user="user",            # Match POSTGRES_USER from docker-compose.yml
-        password="1234",        # Match POSTGRES_PASSWORD from docker-compose.yml
-        port=5432
-    )
-    yield db
-    db.close()
-```
-
-### Stop and Clean Up
-
-```bash
-# Stop the container
-docker-compose down
-
-# Remove the container and volumes
-docker-compose down -v
-```
+- `__all__ = ["base_url", "http"]` - Expose fixtures for test modules
 
 ## 🚀 Installation & Execution
 
@@ -175,6 +75,11 @@ pip install -r requirements.txt
 - `psycopg2-binary` - PostgreSQL adapter for Python
 - `mypy` - Static type checker
 - `pytest-reporter-html1` - HTML test report generation
+- `pytest-xdist` - Parallel test execution
+- `pytest-sugar` - Enhanced test output
+- `jsonschema` - JSON schema validation
+- `python-dotenv` - Environment variable management
+- `vcrpy` - HTTP interaction recording
 
 ### 2. Run Tests
 
@@ -182,8 +87,8 @@ pip install -r requirements.txt
 # Run all tests
 pytest
 
-# Run tests with @pytest.mark (example: testdb)
-pytest -m testdb
+# Run tests with @pytest.mark (example: smoke)
+pytest -m smoke
 
 # Run with verbose output
 pytest -v
@@ -192,55 +97,22 @@ pytest -v
 pytest -s -v
 
 # Run specific test file
-pytest tests/test_db_connection.py
+pytest tests/test_smoke/test_sample_smoke.py -v
 
 # Generate HTML report
 pytest --html=reports/html1-report.html
 ```
-
-### 3. Running Database Tests
-
-Ensure the Docker container is running before executing database tests:
-
-```bash
-# Start PostgreSQL
-cd docker && docker-compose up -d && cd ..
-
-# Run database tests
-pytest tests/test_db_connection.py -v
-```
-
-## 📝 Example Test Usage
-
-### Testing the Database Connection
-
-```python
-def test_users(db_connection):
-    # Query the database
-    people = db_connection.execute_query_dict(
-        "SELECT * FROM people WHERE id = %s",
-        (1,)
-    )
-    
-    # Validate results
-    assert len(people) > 0
-    person = people[0]
-    assert person["fname"] == "Alice"
-    assert person["age"] == 30
-```
-
 ### Testing API Endpoints
 
 ```python
-def test_get_activity(api_client):
-    response = api_client.get(Endpoints.ACTIVITIES_BY_ID, id=1)
-    assert response.status_code == 200
+def test_api_available(http, base_url):
+    r = http.get(Endpoints.PEOPLE)
+    assert r.status_code == 200
+    assert r.headers.get("Content-Type", "").startswith("application/json")
 ```
 
 ## 🔒 Best Practices
 
-- **Parameterized Queries**: Always use `%s` placeholders to prevent SQL injection
-- **Connection Management**: Use context managers (`with` statements) for safe connection handling
 - **Fixtures**: Leverage Pytest fixtures for setup and teardown
 - **Type Hints**: Use type annotations for better code documentation
 - **Error Handling**: Catch and log errors appropriately
@@ -258,13 +130,12 @@ See `requirements.txt` for the complete list. Key dependencies:
 | psycopg2-binary | Latest | PostgreSQL adapter |
 | mypy | Latest | Type checking |
 | pytest-reporter-html1 | Latest | HTML reports |
+| pytest-xdist | Latest | Parallel test execution |
+| pytest-sugar | Latest | Enhanced output |
+| jsonschema | Latest | JSON schema validation |
+| python-dotenv | Latest | Environment variables |
 
 ## 🛠️ Troubleshooting
-
-### PostgreSQL Connection Issues
-- Verify Docker container is running: `docker-compose ps`
-- Check credentials in `conftest.py` match `docker-compose.yml`
-- Ensure port 5432 is not in use: `lsof -i :5432`
 
 ### Import Errors
 - Activate virtual environment: `source venv/bin/activate`
@@ -273,7 +144,6 @@ See `requirements.txt` for the complete list. Key dependencies:
 ### Test Failures
 - Use `-v` flag for verbose output
 - Use `-s` flag to see print statements
-- Check database initialization: `docker-compose logs db`
 
 ## 📄 License
 
