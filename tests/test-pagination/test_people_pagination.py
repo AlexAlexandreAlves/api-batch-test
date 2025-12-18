@@ -7,7 +7,7 @@ from src.schemas.people_schema import PEOPLE_ITEM_SCHEMA
 
 import pytest
 
-
+@pytest.mark.skip(reason="The API has changed, and it does not return expected page data structure.")
 @pytest.mark.heavy
 @pytest.mark.pagination
 def test_people_pagination_integrity(http):

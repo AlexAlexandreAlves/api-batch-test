@@ -1,0 +1,601 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://swapi.info/api/people/
+  response:
+    body:
+      string: "[\n\t{\n\t\t\"name\": \"Luke Skywalker\",\n\t\t\"height\": \"172\",\n\t\t\"mass\":
+        \"77\",\n\t\t\"hair_color\": \"blond\",\n\t\t\"skin_color\": \"fair\",\n\t\t\"eye_color\":
+        \"blue\",\n\t\t\"birth_year\": \"19BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\":
+        \"https://swapi.info/api/planets/1\",\n\t\t\"films\": [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [\n\t\t\t\"https://swapi.info/api/vehicles/14\",\n\t\t\t\"https://swapi.info/api/vehicles/30\"\n\t\t],\n\t\t\"starships\":
+        [\n\t\t\t\"https://swapi.info/api/starships/12\",\n\t\t\t\"https://swapi.info/api/starships/22\"\n\t\t],\n\t\t\"created\":
+        \"2014-12-09T13:50:51.644000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:56.891000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/1\"\n\t},\n\t{\n\t\t\"name\": \"C-3PO\",\n\t\t\"height\":
+        \"167\",\n\t\t\"mass\": \"75\",\n\t\t\"hair_color\": \"n/a\",\n\t\t\"skin_color\":
+        \"gold\",\n\t\t\"eye_color\": \"yellow\",\n\t\t\"birth_year\": \"112BBY\",\n\t\t\"gender\":
+        \"n/a\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/1\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\",\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/2\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-10T15:10:51.357000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.309000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/2\"\n\t},\n\t{\n\t\t\"name\": \"R2-D2\",\n\t\t\"height\":
+        \"96\",\n\t\t\"mass\": \"32\",\n\t\t\"hair_color\": \"n/a\",\n\t\t\"skin_color\":
+        \"white, blue\",\n\t\t\"eye_color\": \"red\",\n\t\t\"birth_year\": \"33BBY\",\n\t\t\"gender\":
+        \"n/a\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/8\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\",\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/2\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-10T15:11:50.376000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.311000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/3\"\n\t},\n\t{\n\t\t\"name\": \"Darth Vader\",\n\t\t\"height\":
+        \"202\",\n\t\t\"mass\": \"136\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"white\",\n\t\t\"eye_color\": \"yellow\",\n\t\t\"birth_year\": \"41.9BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/1\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [\"https://swapi.info/api/starships/13\"],\n\t\t\"created\":
+        \"2014-12-10T15:18:20.704000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.313000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/4\"\n\t},\n\t{\n\t\t\"name\": \"Leia Organa\",\n\t\t\"height\":
+        \"150\",\n\t\t\"mass\": \"49\",\n\t\t\"hair_color\": \"brown\",\n\t\t\"skin_color\":
+        \"light\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\": \"19BBY\",\n\t\t\"gender\":
+        \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/2\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [\"https://swapi.info/api/vehicles/30\"],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-10T15:20:09.791000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.315000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/5\"\n\t},\n\t{\n\t\t\"name\": \"Owen Lars\",\n\t\t\"height\":
+        \"178\",\n\t\t\"mass\": \"120\",\n\t\t\"hair_color\": \"brown, grey\",\n\t\t\"skin_color\":
+        \"light\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\": \"52BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/1\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-10T15:52:14.024000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.317000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/6\"\n\t},\n\t{\n\t\t\"name\":
+        \"Beru Whitesun lars\",\n\t\t\"height\": \"165\",\n\t\t\"mass\": \"75\",\n\t\t\"hair_color\":
+        \"brown\",\n\t\t\"skin_color\": \"light\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\":
+        \"47BBY\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/1\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-10T15:53:41.121000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.319000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/7\"\n\t},\n\t{\n\t\t\"name\":
+        \"R5-D4\",\n\t\t\"height\": \"97\",\n\t\t\"mass\": \"32\",\n\t\t\"hair_color\":
+        \"n/a\",\n\t\t\"skin_color\": \"white, red\",\n\t\t\"eye_color\": \"red\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"n/a\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/1\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/1\"],\n\t\t\"species\": [\"https://swapi.info/api/species/2\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-10T15:57:50.959000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.321000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/8\"\n\t},\n\t{\n\t\t\"name\":
+        \"Biggs Darklighter\",\n\t\t\"height\": \"183\",\n\t\t\"mass\": \"84\",\n\t\t\"hair_color\":
+        \"black\",\n\t\t\"skin_color\": \"light\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\":
+        \"24BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/1\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/1\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [\"https://swapi.info/api/starships/12\"],\n\t\t\"created\":
+        \"2014-12-10T15:59:50.509000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.323000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/9\"\n\t},\n\t{\n\t\t\"name\": \"Obi-Wan Kenobi\",\n\t\t\"height\":
+        \"182\",\n\t\t\"mass\": \"77\",\n\t\t\"hair_color\": \"auburn, white\",\n\t\t\"skin_color\":
+        \"fair\",\n\t\t\"eye_color\": \"blue-gray\",\n\t\t\"birth_year\": \"57BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/20\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\",\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [\"https://swapi.info/api/vehicles/38\"],\n\t\t\"starships\":
+        [\n\t\t\t\"https://swapi.info/api/starships/48\",\n\t\t\t\"https://swapi.info/api/starships/59\",\n\t\t\t\"https://swapi.info/api/starships/64\",\n\t\t\t\"https://swapi.info/api/starships/65\",\n\t\t\t\"https://swapi.info/api/starships/74\"\n\t\t],\n\t\t\"created\":
+        \"2014-12-10T16:16:29.192000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.325000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/10\"\n\t},\n\t{\n\t\t\"name\": \"Anakin Skywalker\",\n\t\t\"height\":
+        \"188\",\n\t\t\"mass\": \"84\",\n\t\t\"hair_color\": \"blond\",\n\t\t\"skin_color\":
+        \"fair\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\": \"41.9BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/1\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [\n\t\t\t\"https://swapi.info/api/vehicles/44\",\n\t\t\t\"https://swapi.info/api/vehicles/46\"\n\t\t],\n\t\t\"starships\":
+        [\n\t\t\t\"https://swapi.info/api/starships/39\",\n\t\t\t\"https://swapi.info/api/starships/59\",\n\t\t\t\"https://swapi.info/api/starships/65\"\n\t\t],\n\t\t\"created\":
+        \"2014-12-10T16:20:44.310000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.327000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/11\"\n\t},\n\t{\n\t\t\"name\": \"Wilhuff Tarkin\",\n\t\t\"height\":
+        \"180\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\": \"auburn, grey\",\n\t\t\"skin_color\":
+        \"fair\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\": \"64BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/21\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-10T16:26:56.138000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.330000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/12\"\n\t},\n\t{\n\t\t\"name\":
+        \"Chewbacca\",\n\t\t\"height\": \"228\",\n\t\t\"mass\": \"112\",\n\t\t\"hair_color\":
+        \"brown\",\n\t\t\"skin_color\": \"unknown\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\":
+        \"200BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/14\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/3\"],\n\t\t\"vehicles\": [\"https://swapi.info/api/vehicles/19\"],\n\t\t\"starships\":
+        [\n\t\t\t\"https://swapi.info/api/starships/10\",\n\t\t\t\"https://swapi.info/api/starships/22\"\n\t\t],\n\t\t\"created\":
+        \"2014-12-10T16:42:45.066000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.332000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/13\"\n\t},\n\t{\n\t\t\"name\": \"Han Solo\",\n\t\t\"height\":
+        \"180\",\n\t\t\"mass\": \"80\",\n\t\t\"hair_color\": \"brown\",\n\t\t\"skin_color\":
+        \"fair\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\": \"29BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/22\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [\n\t\t\t\"https://swapi.info/api/starships/10\",\n\t\t\t\"https://swapi.info/api/starships/22\"\n\t\t],\n\t\t\"created\":
+        \"2014-12-10T16:49:14.582000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.334000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/14\"\n\t},\n\t{\n\t\t\"name\": \"Greedo\",\n\t\t\"height\":
+        \"173\",\n\t\t\"mass\": \"74\",\n\t\t\"hair_color\": \"n/a\",\n\t\t\"skin_color\":
+        \"green\",\n\t\t\"eye_color\": \"black\",\n\t\t\"birth_year\": \"44BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/23\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/1\"],\n\t\t\"species\": [\"https://swapi.info/api/species/4\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-10T17:03:30.334000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.336000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/15\"\n\t},\n\t{\n\t\t\"name\":
+        \"Jabba Desilijic Tiure\",\n\t\t\"height\": \"175\",\n\t\t\"mass\": \"1,358\",\n\t\t\"hair_color\":
+        \"n/a\",\n\t\t\"skin_color\": \"green-tan, brown\",\n\t\t\"eye_color\": \"orange\",\n\t\t\"birth_year\":
+        \"600BBY\",\n\t\t\"gender\": \"hermaphrodite\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/24\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/3\",\n\t\t\t\"https://swapi.info/api/films/4\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/5\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-10T17:11:31.638000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.338000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/16\"\n\t},\n\t{\n\t\t\"name\": \"Wedge Antilles\",\n\t\t\"height\":
+        \"170\",\n\t\t\"mass\": \"77\",\n\t\t\"hair_color\": \"brown\",\n\t\t\"skin_color\":
+        \"fair\",\n\t\t\"eye_color\": \"hazel\",\n\t\t\"birth_year\": \"21BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/22\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [\"https://swapi.info/api/vehicles/14\"],\n\t\t\"starships\":
+        [\"https://swapi.info/api/starships/12\"],\n\t\t\"created\": \"2014-12-12T11:08:06.469000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.341000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/18\"\n\t},\n\t{\n\t\t\"name\":
+        \"Jek Tono Porkins\",\n\t\t\"height\": \"180\",\n\t\t\"mass\": \"110\",\n\t\t\"hair_color\":
+        \"brown\",\n\t\t\"skin_color\": \"fair\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/26\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/1\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [\"https://swapi.info/api/starships/12\"],\n\t\t\"created\":
+        \"2014-12-12T11:16:56.569000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.343000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/19\"\n\t},\n\t{\n\t\t\"name\": \"Yoda\",\n\t\t\"height\":
+        \"66\",\n\t\t\"mass\": \"17\",\n\t\t\"hair_color\": \"white\",\n\t\t\"skin_color\":
+        \"green\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\": \"896BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/28\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\",\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/6\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-15T12:26:01.042000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.345000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/20\"\n\t},\n\t{\n\t\t\"name\": \"Palpatine\",\n\t\t\"height\":
+        \"170\",\n\t\t\"mass\": \"75\",\n\t\t\"hair_color\": \"grey\",\n\t\t\"skin_color\":
+        \"pale\",\n\t\t\"eye_color\": \"yellow\",\n\t\t\"birth_year\": \"82BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/8\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\",\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-15T12:48:05.971000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.347000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/21\"\n\t},\n\t{\n\t\t\"name\":
+        \"Boba Fett\",\n\t\t\"height\": \"183\",\n\t\t\"mass\": \"78.2\",\n\t\t\"hair_color\":
+        \"black\",\n\t\t\"skin_color\": \"fair\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\":
+        \"31.5BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/10\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\",\n\t\t\t\"https://swapi.info/api/films/5\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [\"https://swapi.info/api/starships/21\"],\n\t\t\"created\":
+        \"2014-12-15T12:49:32.457000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.349000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/22\"\n\t},\n\t{\n\t\t\"name\": \"IG-88\",\n\t\t\"height\":
+        \"200\",\n\t\t\"mass\": \"140\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"metal\",\n\t\t\"eye_color\": \"red\",\n\t\t\"birth_year\": \"15BBY\",\n\t\t\"gender\":
+        \"none\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/28\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/2\"],\n\t\t\"species\": [\"https://swapi.info/api/species/2\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-15T12:51:10.076000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.351000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/23\"\n\t},\n\t{\n\t\t\"name\":
+        \"Bossk\",\n\t\t\"height\": \"190\",\n\t\t\"mass\": \"113\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"green\",\n\t\t\"eye_color\": \"red\",\n\t\t\"birth_year\":
+        \"53BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/29\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/2\"],\n\t\t\"species\": [\"https://swapi.info/api/species/7\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-15T12:53:49.297000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.355000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/24\"\n\t},\n\t{\n\t\t\"name\":
+        \"Lando Calrissian\",\n\t\t\"height\": \"177\",\n\t\t\"mass\": \"79\",\n\t\t\"hair_color\":
+        \"black\",\n\t\t\"skin_color\": \"dark\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\":
+        \"31BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/30\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/2\",\n\t\t\t\"https://swapi.info/api/films/3\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [\"https://swapi.info/api/starships/10\"],\n\t\t\"created\":
+        \"2014-12-15T12:56:32.683000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.357000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/25\"\n\t},\n\t{\n\t\t\"name\": \"Lobot\",\n\t\t\"height\":
+        \"175\",\n\t\t\"mass\": \"79\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"light\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\": \"37BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/6\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/2\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-15T13:01:57.178000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.359000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/26\"\n\t},\n\t{\n\t\t\"name\":
+        \"Ackbar\",\n\t\t\"height\": \"180\",\n\t\t\"mass\": \"83\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"brown mottle\",\n\t\t\"eye_color\": \"orange\",\n\t\t\"birth_year\":
+        \"41BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/31\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/3\"],\n\t\t\"species\": [\"https://swapi.info/api/species/8\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-18T11:07:50.584000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.362000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/27\"\n\t},\n\t{\n\t\t\"name\":
+        \"Mon Mothma\",\n\t\t\"height\": \"150\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"auburn\",\n\t\t\"skin_color\": \"fair\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\":
+        \"48BBY\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/32\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/3\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-18T11:12:38.895000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.364000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/28\"\n\t},\n\t{\n\t\t\"name\":
+        \"Arvel Crynyd\",\n\t\t\"height\": \"unknown\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"brown\",\n\t\t\"skin_color\": \"fair\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/28\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/3\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [\"https://swapi.info/api/starships/28\"],\n\t\t\"created\":
+        \"2014-12-18T11:16:33.020000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.367000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/29\"\n\t},\n\t{\n\t\t\"name\": \"Wicket Systri
+        Warrick\",\n\t\t\"height\": \"88\",\n\t\t\"mass\": \"20\",\n\t\t\"hair_color\":
+        \"brown\",\n\t\t\"skin_color\": \"brown\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\":
+        \"8BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/7\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/3\"],\n\t\t\"species\": [\"https://swapi.info/api/species/9\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-18T11:21:58.954000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.369000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/30\"\n\t},\n\t{\n\t\t\"name\":
+        \"Nien Nunb\",\n\t\t\"height\": \"160\",\n\t\t\"mass\": \"68\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"grey\",\n\t\t\"eye_color\": \"black\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/33\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/3\"],\n\t\t\"species\": [\"https://swapi.info/api/species/10\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [\"https://swapi.info/api/starships/10\"],\n\t\t\"created\":
+        \"2014-12-18T11:26:18.541000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.371000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/31\"\n\t},\n\t{\n\t\t\"name\": \"Qui-Gon Jinn\",\n\t\t\"height\":
+        \"193\",\n\t\t\"mass\": \"89\",\n\t\t\"hair_color\": \"brown\",\n\t\t\"skin_color\":
+        \"fair\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\": \"92BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/28\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/4\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [\"https://swapi.info/api/vehicles/38\"],\n\t\t\"starships\": [],\n\t\t\"created\":
+        \"2014-12-19T16:54:53.618000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.375000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/32\"\n\t},\n\t{\n\t\t\"name\": \"Nute Gunray\",\n\t\t\"height\":
+        \"191\",\n\t\t\"mass\": \"90\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"mottled green\",\n\t\t\"eye_color\": \"red\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/18\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/11\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-19T17:05:57.357000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.377000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/33\"\n\t},\n\t{\n\t\t\"name\": \"Finis Valorum\",\n\t\t\"height\":
+        \"170\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\": \"blond\",\n\t\t\"skin_color\":
+        \"fair\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\": \"91BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/9\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/4\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-19T17:21:45.915000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.379000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/34\"\n\t},\n\t{\n\t\t\"name\":
+        \"Padm\xE9 Amidala\",\n\t\t\"height\": \"185\",\n\t\t\"mass\": \"45\",\n\t\t\"hair_color\":
+        \"brown\",\n\t\t\"skin_color\": \"light\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\":
+        \"46BBY\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/8\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [\n\t\t\t\"https://swapi.info/api/starships/39\",\n\t\t\t\"https://swapi.info/api/starships/49\",\n\t\t\t\"https://swapi.info/api/starships/64\"\n\t\t],\n\t\t\"created\":
+        \"2014-12-19T17:28:26.926000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.381000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/35\"\n\t},\n\t{\n\t\t\"name\": \"Jar Jar Binks\",\n\t\t\"height\":
+        \"196\",\n\t\t\"mass\": \"66\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"orange\",\n\t\t\"eye_color\": \"orange\",\n\t\t\"birth_year\": \"52BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/8\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/12\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-19T17:29:32.489000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.383000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/36\"\n\t},\n\t{\n\t\t\"name\": \"Roos Tarpals\",\n\t\t\"height\":
+        \"224\",\n\t\t\"mass\": \"82\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"grey\",\n\t\t\"eye_color\": \"orange\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/8\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/4\"],\n\t\t\"species\": [\"https://swapi.info/api/species/12\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-19T17:32:56.741000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.385000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/37\"\n\t},\n\t{\n\t\t\"name\":
+        \"Rugor Nass\",\n\t\t\"height\": \"206\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"green\",\n\t\t\"eye_color\": \"orange\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/8\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/4\"],\n\t\t\"species\": [\"https://swapi.info/api/species/12\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-19T17:33:38.909000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.388000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/38\"\n\t},\n\t{\n\t\t\"name\":
+        \"Ric Oli\xE9\",\n\t\t\"height\": \"183\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"brown\",\n\t\t\"skin_color\": \"fair\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/8\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/4\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [\"https://swapi.info/api/starships/40\"],\n\t\t\"created\":
+        \"2014-12-19T17:45:01.522000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.392000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/39\"\n\t},\n\t{\n\t\t\"name\": \"Watto\",\n\t\t\"height\":
+        \"137\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\": \"black\",\n\t\t\"skin_color\":
+        \"blue, grey\",\n\t\t\"eye_color\": \"yellow\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/34\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/13\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-19T17:48:54.647000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.395000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/40\"\n\t},\n\t{\n\t\t\"name\": \"Sebulba\",\n\t\t\"height\":
+        \"112\",\n\t\t\"mass\": \"40\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"grey, red\",\n\t\t\"eye_color\": \"orange\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/35\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/4\"],\n\t\t\"species\": [\"https://swapi.info/api/species/14\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-19T17:53:02.586000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.397000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/41\"\n\t},\n\t{\n\t\t\"name\":
+        \"Quarsh Panaka\",\n\t\t\"height\": \"183\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"black\",\n\t\t\"skin_color\": \"dark\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\":
+        \"62BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/8\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/4\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-19T17:55:43.348000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.399000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/42\"\n\t},\n\t{\n\t\t\"name\":
+        \"Shmi Skywalker\",\n\t\t\"height\": \"163\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"black\",\n\t\t\"skin_color\": \"fair\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\":
+        \"72BBY\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/1\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-19T17:57:41.191000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.401000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/43\"\n\t},\n\t{\n\t\t\"name\":
+        \"Darth Maul\",\n\t\t\"height\": \"175\",\n\t\t\"mass\": \"80\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"red\",\n\t\t\"eye_color\": \"yellow\",\n\t\t\"birth_year\":
+        \"54BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/36\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/4\"],\n\t\t\"species\": [\"https://swapi.info/api/species/22\"],\n\t\t\"vehicles\":
+        [\"https://swapi.info/api/vehicles/42\"],\n\t\t\"starships\": [\"https://swapi.info/api/starships/41\"],\n\t\t\"created\":
+        \"2014-12-19T18:00:41.929000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.403000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/44\"\n\t},\n\t{\n\t\t\"name\": \"Bib Fortuna\",\n\t\t\"height\":
+        \"180\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"pale\",\n\t\t\"eye_color\": \"pink\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/37\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/3\"],\n\t\t\"species\": [\"https://swapi.info/api/species/15\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T09:47:02.512000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.407000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/45\"\n\t},\n\t{\n\t\t\"name\":
+        \"Ayla Secura\",\n\t\t\"height\": \"178\",\n\t\t\"mass\": \"55\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"blue\",\n\t\t\"eye_color\": \"hazel\",\n\t\t\"birth_year\":
+        \"48BBY\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/37\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/15\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T09:48:01.172000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.409000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/46\"\n\t},\n\t{\n\t\t\"name\": \"Ratts Tyerel\",\n\t\t\"height\":
+        \"79\",\n\t\t\"mass\": \"15\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"grey, blue\",\n\t\t\"eye_color\": \"unknown\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/38\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/4\"],\n\t\t\"species\": [\"https://swapi.info/api/species/16\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T09:53:15.086000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.410000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/47\"\n\t},\n\t{\n\t\t\"name\":
+        \"Dud Bolt\",\n\t\t\"height\": \"94\",\n\t\t\"mass\": \"45\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"blue, grey\",\n\t\t\"eye_color\": \"yellow\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/39\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/4\"],\n\t\t\"species\": [\"https://swapi.info/api/species/17\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T09:57:31.858000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.414000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/48\"\n\t},\n\t{\n\t\t\"name\":
+        \"Gasgano\",\n\t\t\"height\": \"122\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"white, blue\",\n\t\t\"eye_color\": \"black\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/40\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/4\"],\n\t\t\"species\": [\"https://swapi.info/api/species/18\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T10:02:12.223000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.416000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/49\"\n\t},\n\t{\n\t\t\"name\":
+        \"Ben Quadinaros\",\n\t\t\"height\": \"163\",\n\t\t\"mass\": \"65\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"grey, green, yellow\",\n\t\t\"eye_color\":
+        \"orange\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\":
+        \"https://swapi.info/api/planets/41\",\n\t\t\"films\": [\"https://swapi.info/api/films/4\"],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/19\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T10:08:33.777000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.417000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/50\"\n\t},\n\t{\n\t\t\"name\": \"Mace Windu\",\n\t\t\"height\":
+        \"188\",\n\t\t\"mass\": \"84\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"dark\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\": \"72BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/42\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T10:12:30.846000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.420000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/51\"\n\t},\n\t{\n\t\t\"name\":
+        \"Ki-Adi-Mundi\",\n\t\t\"height\": \"198\",\n\t\t\"mass\": \"82\",\n\t\t\"hair_color\":
+        \"white\",\n\t\t\"skin_color\": \"pale\",\n\t\t\"eye_color\": \"yellow\",\n\t\t\"birth_year\":
+        \"92BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/43\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/20\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T10:15:32.293000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.422000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/52\"\n\t},\n\t{\n\t\t\"name\": \"Kit Fisto\",\n\t\t\"height\":
+        \"196\",\n\t\t\"mass\": \"87\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"green\",\n\t\t\"eye_color\": \"black\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/44\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/21\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T10:18:57.202000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.424000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/53\"\n\t},\n\t{\n\t\t\"name\": \"Eeth Koth\",\n\t\t\"height\":
+        \"171\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\": \"black\",\n\t\t\"skin_color\":
+        \"brown\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/45\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/22\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T10:26:47.902000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.427000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/54\"\n\t},\n\t{\n\t\t\"name\": \"Adi Gallia\",\n\t\t\"height\":
+        \"184\",\n\t\t\"mass\": \"50\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"dark\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/9\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/23\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T10:29:11.661000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.432000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/55\"\n\t},\n\t{\n\t\t\"name\": \"Saesee Tiin\",\n\t\t\"height\":
+        \"188\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"pale\",\n\t\t\"eye_color\": \"orange\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/47\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/24\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T10:32:11.669000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.434000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/56\"\n\t},\n\t{\n\t\t\"name\": \"Yarael Poof\",\n\t\t\"height\":
+        \"264\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"white\",\n\t\t\"eye_color\": \"yellow\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/48\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/4\"],\n\t\t\"species\": [\"https://swapi.info/api/species/25\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T10:34:48.725000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.437000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/57\"\n\t},\n\t{\n\t\t\"name\":
+        \"Plo Koon\",\n\t\t\"height\": \"188\",\n\t\t\"mass\": \"80\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"orange\",\n\t\t\"eye_color\": \"black\",\n\t\t\"birth_year\":
+        \"22BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/49\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/26\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [\"https://swapi.info/api/starships/48\"],\n\t\t\"created\": \"2014-12-20T10:49:19.859000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.439000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/58\"\n\t},\n\t{\n\t\t\"name\":
+        \"Mas Amedda\",\n\t\t\"height\": \"196\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"blue\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/50\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/4\",\n\t\t\t\"https://swapi.info/api/films/5\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/27\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T10:53:26.457000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.442000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/59\"\n\t},\n\t{\n\t\t\"name\": \"Gregar Typho\",\n\t\t\"height\":
+        \"185\",\n\t\t\"mass\": \"85\",\n\t\t\"hair_color\": \"black\",\n\t\t\"skin_color\":
+        \"dark\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/8\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/5\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [\"https://swapi.info/api/starships/39\"],\n\t\t\"created\":
+        \"2014-12-20T11:10:10.381000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.445000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/60\"\n\t},\n\t{\n\t\t\"name\": \"Cord\xE9\",\n\t\t\"height\":
+        \"157\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\": \"brown\",\n\t\t\"skin_color\":
+        \"light\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/8\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/5\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T11:11:39.630000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.449000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/61\"\n\t},\n\t{\n\t\t\"name\":
+        \"Cliegg Lars\",\n\t\t\"height\": \"183\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"brown\",\n\t\t\"skin_color\": \"fair\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\":
+        \"82BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/1\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/5\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T15:59:03.958000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.451000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/62\"\n\t},\n\t{\n\t\t\"name\":
+        \"Poggle the Lesser\",\n\t\t\"height\": \"183\",\n\t\t\"mass\": \"80\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"green\",\n\t\t\"eye_color\": \"yellow\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/11\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/28\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T16:40:43.977000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.453000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/63\"\n\t},\n\t{\n\t\t\"name\": \"Luminara
+        Unduli\",\n\t\t\"height\": \"170\",\n\t\t\"mass\": \"56.2\",\n\t\t\"hair_color\":
+        \"black\",\n\t\t\"skin_color\": \"yellow\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\":
+        \"58BBY\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/51\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/29\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T16:45:53.668000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.455000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/64\"\n\t},\n\t{\n\t\t\"name\": \"Barriss Offee\",\n\t\t\"height\":
+        \"166\",\n\t\t\"mass\": \"50\",\n\t\t\"hair_color\": \"black\",\n\t\t\"skin_color\":
+        \"yellow\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\": \"40BBY\",\n\t\t\"gender\":
+        \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/51\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/5\"],\n\t\t\"species\": [\"https://swapi.info/api/species/29\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T16:46:40.440000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.457000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/65\"\n\t},\n\t{\n\t\t\"name\":
+        \"Dorm\xE9\",\n\t\t\"height\": \"165\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"brown\",\n\t\t\"skin_color\": \"light\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/8\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/5\"],\n\t\t\"species\": [\"https://swapi.info/api/species/1\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T16:49:14.640000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.460000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/66\"\n\t},\n\t{\n\t\t\"name\":
+        \"Dooku\",\n\t\t\"height\": \"193\",\n\t\t\"mass\": \"80\",\n\t\t\"hair_color\":
+        \"white\",\n\t\t\"skin_color\": \"fair\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\":
+        \"102BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/52\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/1\"],\n\t\t\"vehicles\": [\"https://swapi.info/api/vehicles/55\"],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T16:52:14.726000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.462000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/67\"\n\t},\n\t{\n\t\t\"name\": \"Bail Prestor
+        Organa\",\n\t\t\"height\": \"191\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"black\",\n\t\t\"skin_color\": \"tan\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\":
+        \"67BBY\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/2\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/1\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T16:53:08.575000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.463000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/68\"\n\t},\n\t{\n\t\t\"name\": \"Jango Fett\",\n\t\t\"height\":
+        \"183\",\n\t\t\"mass\": \"79\",\n\t\t\"hair_color\": \"black\",\n\t\t\"skin_color\":
+        \"tan\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\": \"66BBY\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/53\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/5\"],\n\t\t\"species\": [],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T16:54:41.620000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.465000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/69\"\n\t},\n\t{\n\t\t\"name\":
+        \"Zam Wesell\",\n\t\t\"height\": \"168\",\n\t\t\"mass\": \"55\",\n\t\t\"hair_color\":
+        \"blonde\",\n\t\t\"skin_color\": \"fair, green, yellow\",\n\t\t\"eye_color\":
+        \"yellow\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\":
+        \"https://swapi.info/api/planets/54\",\n\t\t\"films\": [\"https://swapi.info/api/films/5\"],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/30\"],\n\t\t\"vehicles\": [\"https://swapi.info/api/vehicles/45\"],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T16:57:44.471000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.468000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/70\"\n\t},\n\t{\n\t\t\"name\": \"Dexter Jettster\",\n\t\t\"height\":
+        \"198\",\n\t\t\"mass\": \"102\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"brown\",\n\t\t\"eye_color\": \"yellow\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/55\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/5\"],\n\t\t\"species\": [\"https://swapi.info/api/species/31\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T17:28:27.248000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.470000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/71\"\n\t},\n\t{\n\t\t\"name\":
+        \"Lama Su\",\n\t\t\"height\": \"229\",\n\t\t\"mass\": \"88\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"grey\",\n\t\t\"eye_color\": \"black\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/10\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/5\"],\n\t\t\"species\": [\"https://swapi.info/api/species/32\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T17:30:50.416000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.473000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/72\"\n\t},\n\t{\n\t\t\"name\":
+        \"Taun We\",\n\t\t\"height\": \"213\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"grey\",\n\t\t\"eye_color\": \"black\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/10\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/5\"],\n\t\t\"species\": [\"https://swapi.info/api/species/32\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T17:31:21.195000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.474000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/73\"\n\t},\n\t{\n\t\t\"name\":
+        \"Jocasta Nu\",\n\t\t\"height\": \"167\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"white\",\n\t\t\"skin_color\": \"fair\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/9\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/5\"],\n\t\t\"species\": [\"https://swapi.info/api/species/1\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T17:32:51.996000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.476000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/74\"\n\t},\n\t{\n\t\t\"name\":
+        \"R4-P17\",\n\t\t\"height\": \"96\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"silver, red\",\n\t\t\"eye_color\": \"red,
+        blue\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\":
+        \"https://swapi.info/api/planets/28\",\n\t\t\"films\": [\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T17:43:36.409000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.478000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/75\"\n\t},\n\t{\n\t\t\"name\":
+        \"Wat Tambor\",\n\t\t\"height\": \"193\",\n\t\t\"mass\": \"48\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"green, grey\",\n\t\t\"eye_color\": \"unknown\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/56\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/5\"],\n\t\t\"species\": [\"https://swapi.info/api/species/33\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T17:53:52.607000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.481000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/76\"\n\t},\n\t{\n\t\t\"name\":
+        \"San Hill\",\n\t\t\"height\": \"191\",\n\t\t\"mass\": \"unknown\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"grey\",\n\t\t\"eye_color\": \"gold\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/57\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/5\"],\n\t\t\"species\": [\"https://swapi.info/api/species/34\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T17:58:17.049000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.484000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/77\"\n\t},\n\t{\n\t\t\"name\":
+        \"Shaak Ti\",\n\t\t\"height\": \"178\",\n\t\t\"mass\": \"57\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"red, blue, white\",\n\t\t\"eye_color\": \"black\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/58\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [\"https://swapi.info/api/species/35\"],\n\t\t\"vehicles\": [],\n\t\t\"starships\":
+        [],\n\t\t\"created\": \"2014-12-20T18:44:01.103000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.486000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/78\"\n\t},\n\t{\n\t\t\"name\": \"Grievous\",\n\t\t\"height\":
+        \"216\",\n\t\t\"mass\": \"159\",\n\t\t\"hair_color\": \"none\",\n\t\t\"skin_color\":
+        \"brown, white\",\n\t\t\"eye_color\": \"green, yellow\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/59\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/6\"],\n\t\t\"species\": [\"https://swapi.info/api/species/36\"],\n\t\t\"vehicles\":
+        [\"https://swapi.info/api/vehicles/60\"],\n\t\t\"starships\": [\"https://swapi.info/api/starships/74\"],\n\t\t\"created\":
+        \"2014-12-20T19:43:53.348000Z\",\n\t\t\"edited\": \"2014-12-20T21:17:50.488000Z\",\n\t\t\"url\":
+        \"https://swapi.info/api/people/79\"\n\t},\n\t{\n\t\t\"name\": \"Tarfful\",\n\t\t\"height\":
+        \"234\",\n\t\t\"mass\": \"136\",\n\t\t\"hair_color\": \"brown\",\n\t\t\"skin_color\":
+        \"brown\",\n\t\t\"eye_color\": \"blue\",\n\t\t\"birth_year\": \"unknown\",\n\t\t\"gender\":
+        \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/14\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/6\"],\n\t\t\"species\": [\"https://swapi.info/api/species/3\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T19:46:34.209000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.491000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/80\"\n\t},\n\t{\n\t\t\"name\":
+        \"Raymus Antilles\",\n\t\t\"height\": \"188\",\n\t\t\"mass\": \"79\",\n\t\t\"hair_color\":
+        \"brown\",\n\t\t\"skin_color\": \"light\",\n\t\t\"eye_color\": \"brown\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/2\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/1\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T19:49:35.583000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.493000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/81\"\n\t},\n\t{\n\t\t\"name\":
+        \"Sly Moore\",\n\t\t\"height\": \"178\",\n\t\t\"mass\": \"48\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"pale\",\n\t\t\"eye_color\": \"white\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"female\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/60\",\n\t\t\"films\":
+        [\n\t\t\t\"https://swapi.info/api/films/5\",\n\t\t\t\"https://swapi.info/api/films/6\"\n\t\t],\n\t\t\"species\":
+        [],\n\t\t\"vehicles\": [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T20:18:37.619000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.496000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/82\"\n\t},\n\t{\n\t\t\"name\":
+        \"Tion Medon\",\n\t\t\"height\": \"206\",\n\t\t\"mass\": \"80\",\n\t\t\"hair_color\":
+        \"none\",\n\t\t\"skin_color\": \"grey\",\n\t\t\"eye_color\": \"black\",\n\t\t\"birth_year\":
+        \"unknown\",\n\t\t\"gender\": \"male\",\n\t\t\"homeworld\": \"https://swapi.info/api/planets/12\",\n\t\t\"films\":
+        [\"https://swapi.info/api/films/6\"],\n\t\t\"species\": [\"https://swapi.info/api/species/37\"],\n\t\t\"vehicles\":
+        [],\n\t\t\"starships\": [],\n\t\t\"created\": \"2014-12-20T20:35:04.260000Z\",\n\t\t\"edited\":
+        \"2014-12-20T21:17:50.498000Z\",\n\t\t\"url\": \"https://swapi.info/api/people/83\"\n\t}\n]\n"
+    headers:
+      Age:
+      - '424286'
+      CF-RAY:
+      - 9b00e748da9df8fd-NVT
+      Cache-Control:
+      - public, max-age=0, must-revalidate, no-store
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - zstd
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 18 Dec 2025 19:00:30 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KJcBQWwGE3VnJUVhOw%2FO3tyPZWyC5p9Ibfx0wKE2WFjUlOH6KHuCzy6MWB5%2BfkdrRsvn%2B9a%2BGvVBLVSTZoENGzCknbPC3198609a4OHg8tAs4in5Z%2Fs%3D"}]}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-headers:
+      - Content-Type
+      access-control-allow-methods:
+      - GET, OPTIONS
+      access-control-allow-origin:
+      - '*'
+      alt-svc:
+      - h3=":443"; ma=86400
+      cache-status:
+      - '"Netlify Edge"; fwd=miss'
+      cf-cache-status:
+      - HIT
+      etag:
+      - W/"7288dddaaffe0661bf3c29c275c692a6-ssl-df"
+      strict-transport-security:
+      - max-age=31536000
+      vary:
+      - Accept-Encoding
+      x-nf-request-id:
+      - 01KCCRQC2R1JD13CQYPTHXR5ZK
+    status:
+      code: 200
+      message: OK
+version: 1

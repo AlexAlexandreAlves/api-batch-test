@@ -19,7 +19,6 @@ This project provides a robust framework for testing REST. It follows Python bes
 
 ```
 API-BATCH-TEST/
-├── api-batch-test/
 │   ├── config/                   # Configuration files   
 │   ├── src/
 │   │   ├── helpers/              # Helper functions for tests

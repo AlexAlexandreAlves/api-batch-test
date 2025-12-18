@@ -1,0 +1,651 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://swapi.info/api/people/99999/
+  response:
+    body:
+      string: /api/people/99999
+    headers:
+      CF-RAY:
+      - 9b00e7b5ea344468-NVT
+      Cache-Control:
+      - no-store
+      Connection:
+      - keep-alive
+      Content-Type:
+      - text/plain; charset=utf-8
+      Date:
+      - Thu, 18 Dec 2025 19:00:51 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kU9fxISkynvFMuD%2FmAQo8TTCAy0OhRmvtaUEJQ8DUrfIuPILs4rHG5KOjZWfU%2FR1aUHiKfPjtMZMDyvkuPMxhYNOgR12NqOBTsg19uHN7ASvnM3n5%2F4%3D"}]}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - accept-encoding
+      alt-svc:
+      - h3=":443"; ma=86400
+      cache-status:
+      - '"Netlify Durable"; fwd=bypass'
+      - '"Netlify Edge"; fwd=miss'
+      cf-cache-status:
+      - MISS
+      location:
+      - /api/people/99999
+      netlify-vary:
+      - header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc,cookie=__prerender_bypass|__next_preview_data,query
+      refresh:
+      - 0;url=/api/people/99999
+      strict-transport-security:
+      - max-age=31536000
+      x-content-type-options:
+      - nosniff
+      x-nf-request-id:
+      - 01KCSDC3ES3WBST004JNKHPVC6
+    status:
+      code: 308
+      message: Permanent Redirect
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.5
+    method: GET
+    uri: https://swapi.info/api/people/99999
+  response:
+    body:
+      string: "<!DOCTYPE html><!--1pPYfUC6WJNDmwROsNGtC--><html lang=\"en\"><head><meta
+        charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link
+        rel=\"preload\" as=\"image\" href=\"/icons/sprite.svg\"/><link rel=\"stylesheet\"
+        href=\"/_next/static/chunks/fafbdc4bfecd4299.css\" data-precedence=\"next\"/><link
+        rel=\"preload\" as=\"script\" fetchPriority=\"low\" href=\"/_next/static/chunks/e491d436f4519dd0.js\"/><script
+        src=\"/_next/static/chunks/fac5ae1e3fcd988d.js\" async=\"\"></script><script
+        src=\"/_next/static/chunks/853963c748fe290d.js\" async=\"\"></script><script
+        src=\"/_next/static/chunks/c645af7d6b65f73e.js\" async=\"\"></script><script
+        src=\"/_next/static/chunks/turbopack-4c915f5d84553490.js\" async=\"\"></script><script
+        src=\"/_next/static/chunks/ec0d7504612eefb4.js\" async=\"\"></script><script
+        src=\"/_next/static/chunks/d48380b47555771d.js\" async=\"\"></script><script
+        src=\"/_next/static/chunks/b25063d3bc4a9003.js\" async=\"\"></script><script
+        src=\"/_next/static/chunks/ff1a16fafef87110.js\" async=\"\"></script><script
+        src=\"/_next/static/chunks/926350dec3317ae7.js\" async=\"\"></script><title>404:
+        This page could not be found.</title><meta name=\"robots\" content=\"noindex\"/><meta
+        name=\"next-size-adjust\" content=\"\"/><title>SWAPI Reborn - Star Wars APIs
+        &amp; Explorer</title><meta name=\"description\" content=\"The Star Wars API,
+        or &quot;swapi&quot; (Swah-pee)!. All the Star Wars data you&#x27;ve ever
+        wanted. A simpler alternative to swapi.dev.\"/><meta name=\"keywords\" content=\"star
+        wars,star wars api,star wars api explorer,swapi,sw-api,nextjs 13,vercel,swapi.dev
+        alternative,swapi.co alternative,alternative\"/><meta property=\"og:title\"
+        content=\"SWAPI Reborn - Star Wars APIs &amp; Explorer\"/><meta property=\"og:description\"
+        content=\"The Star Wars API, or &quot;swapi&quot; (Swah-pee)!. All the Star
+        Wars data you&#x27;ve ever wanted. A simpler alternative to swapi.dev.\"/><meta
+        property=\"og:site_name\" content=\"SWAPI.INFO\"/><meta property=\"og:locale\"
+        content=\"en_US\"/><meta property=\"og:image\" content=\"https://swapi.info/opengraph-image.jpg?opengraph-image.8d590f13.jpg\"/><meta
+        property=\"og:image:width\" content=\"1200\"/><meta property=\"og:image:height\"
+        content=\"628\"/><meta property=\"og:image:type\" content=\"image/jpeg\"/><meta
+        property=\"og:type\" content=\"website\"/><meta name=\"twitter:card\" content=\"summary_large_image\"/><meta
+        name=\"twitter:creator\" content=\"@SivaramPg\"/><meta name=\"twitter:title\"
+        content=\"SWAPI Reborn - Star Wars APIs &amp; Explorer\"/><meta name=\"twitter:description\"
+        content=\"The Star Wars API, or &quot;swapi&quot; (Swah-pee)!. All the Star
+        Wars data you&#x27;ve ever wanted. A simpler alternative to swapi.dev.\"/><meta
+        name=\"twitter:image\" content=\"https://swapi.info/twitter-image.jpg?twitter-image.8d590f13.jpg\"/><meta
+        name=\"twitter:image:width\" content=\"1200\"/><meta name=\"twitter:image:height\"
+        content=\"628\"/><meta name=\"twitter:image:type\" content=\"image/jpeg\"/><link
+        rel=\"icon\" href=\"/favicon.ico?favicon.c808e95a.ico\" sizes=\"256x256\"
+        type=\"image/x-icon\"/><script src=\"/_next/static/chunks/a6dad97d9634a72d.js\"
+        noModule=\"\"></script></head><body class=\"bricolage_grotesque_494c1dc1-module__ZQknHa__variable
+        martian_mono_adaa65e0-module__2sM0OW__variable bg-[#f5f5f5] text-[#121212]
+        dark:bg-[#121212] dark:text-[#f5f5f5]\"><div hidden=\"\"><!--$--><!--/$--></div><script>((a,b,c,d,e,f,g,h)=>{let
+        i=document.documentElement,j=[\"light\",\"dark\"];function k(b){var c;(Array.isArray(a)?a:[a]).forEach(a=>{let
+        c=\"class\"===a,d=c&&f?e.map(a=>f[a]||a):e;c?(i.classList.remove(...d),i.classList.add(f&&f[b]?f[b]:b)):i.setAttribute(a,b)}),c=b,h&&j.includes(c)&&(i.style.colorScheme=c)}if(d)k(d);else
+        try{let a=localStorage.getItem(b)||c,d=g&&\"system\"===a?window.matchMedia(\"(prefers-color-scheme:
+        dark)\").matches?\"dark\":\"light\":a;k(d)}catch(a){}})(\"class\",\"theme\",\"system\",\"dark\",[\"light\",\"dark\"],null,true,true)</script><!--$!--><template
+        data-dgst=\"BAILOUT_TO_CLIENT_SIDE_RENDERING\"></template><!--/$--><img alt=\"Prefetch
+        SVG Sprites\" width=\"0\" height=\"0\" decoding=\"async\" data-nimg=\"1\"
+        class=\"hidden\" style=\"color:transparent\" src=\"/icons/sprite.svg\"/><main
+        class=\"w-full min-h-screen\"><header class=\"sticky top-0 left-0 right-0
+        z-50 w-full h-16 bg-[#FFE81F11] border-b shadow-md  backdrop-blur\"><nav class=\"flex
+        items-center justify-between h-full gap-4 px-4 mx-auto\"><a class=\"inline-flex
+        items-center gap-2\" href=\"/\"><div class=\"w-10 h-10\"><svg viewBox=\"0
+        0 256 256\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><title>swapi.info
+        logo</title><rect width=\"255.004\" height=\"256\" fill=\"black\"></rect><path
+        d=\"M32.6841 108.736V74.176C32.6841 65.6427 35.5854 58.9867 41.3881 54.208C47.1907
+        49.4293 54.9561 47.04 64.6841 47.04C74.5827 47.04 82.4334 49.2587 88.2361
+        53.696C94.0387 57.9627 96.9401 63.5947 96.9401 70.592V102.336C96.9401 105.408
+        94.7214 107.541 90.2841 108.736C87.8947 109.419 85.5054 109.76 83.1161 109.76C80.7267
+        109.76 78.3374 109.504 75.9481 108.992C76.4601 104.896 76.7161 100.544 76.7161
+        95.936V74.176C76.7161 70.9333 75.6067 68.4587 73.3881 66.752C71.1694 64.8747
+        68.2681 63.936 64.6841 63.936C61.1001 63.936 58.1987 64.8747 55.9801 66.752C53.9321
+        68.4587 52.9081 70.9333 52.9081 74.176V104.128C52.9081 110.101 54.8707 114.283
+        58.7961 116.672L85.9321 134.08C93.6121 138.859 97.4521 146.197 97.4521 156.096V191.424C97.4521
+        199.957 94.4654 206.613 88.4921 211.392C82.5187 216.171 74.5827 218.56 64.6841
+        218.56C54.9561 218.56 47.1054 216.427 41.1321 212.16C35.1587 207.723 32.1721
+        202.005 32.1721 195.008V163.264C32.1721 160.192 34.3907 158.059 38.8281 156.864C41.2174
+        156.181 43.6067 155.84 45.9961 155.84C48.3854 155.84 50.7747 156.096 53.1641
+        156.608C52.6521 160.704 52.3961 165.056 52.3961 169.664V191.424C52.3961 194.496
+        53.5907 196.971 55.9801 198.848C58.3694 200.725 61.3561 201.664 64.9401 201.664C68.5241
+        201.664 71.4254 200.725 73.6441 198.848C76.0334 196.971 77.2281 194.496 77.2281
+        191.424V162.496C77.2281 155.84 74.9241 151.061 70.3161 148.16L43.1801 130.496C36.1827
+        126.059 32.6841 118.805 32.6841 108.736ZM202.784 70.592C202.784 62.2293 202.187
+        55.232 200.992 49.6C206.795 48.9173 212.683 48.576 218.656 48.576C221.557
+        48.576 223.008 49.856 223.008 52.416V191.424C223.008 199.957 220.107 206.613
+        214.304 211.392C208.501 216.171 200.565 218.56 190.496 218.56C180.597 218.56
+        173.259 216.171 168.48 211.392C163.701 216.171 156.363 218.56 146.464 218.56C136.736
+        218.56 129.141 216.341 123.68 211.904C118.389 207.467 115.744 200.981 115.744
+        192.448V71.36C115.744 67.776 114.976 65.3013 113.44 63.936C112.075 62.4 109.6
+        61.632 106.016 61.632C106.016 51.904 111.477 47.04 122.4 47.04C131.445 47.04
+        135.968 52.928 135.968 64.704V191.424C135.968 194.667 136.992 197.227 139.04
+        199.104C141.259 200.811 144.075 201.664 147.488 201.664C150.901 201.664 153.717
+        200.896 155.936 199.36C158.155 197.653 159.264 195.349 159.264 192.448V70.592C159.264
+        62.2293 158.667 55.232 157.472 49.6C163.275 48.9173 169.163 48.576 175.136
+        48.576C178.037 48.576 179.488 49.856 179.488 52.416V191.424C179.488 194.667
+        180.512 197.227 182.56 199.104C184.779 200.811 187.595 201.664 191.008 201.664C194.592
+        201.664 197.408 200.811 199.456 199.104C201.675 197.227 202.784 194.667 202.784
+        191.424V70.592Z\" fill=\"#FFE81F\"></path><path d=\"M41.3881 54.208L43.9309
+        57.2957L43.9309 57.2957L41.3881 54.208ZM88.2361 53.696L85.8063 56.8734L85.8362
+        56.8963L85.8665 56.9186L88.2361 53.696ZM90.2841 108.736L89.2442 104.874L89.2146
+        104.881L89.1852 104.89L90.2841 108.736ZM75.9481 108.992L71.9789 108.496L71.5241
+        112.135L75.1099 112.903L75.9481 108.992ZM73.3881 66.752L70.8043 69.8055L70.8754
+        69.8657L70.9492 69.9225L73.3881 66.752ZM55.9801 66.752L58.5408 69.8249L58.5523
+        69.8153L58.5638 69.8055L55.9801 66.752ZM58.7961 116.672L60.9559 113.305L60.9162
+        113.28L60.8758 113.255L58.7961 116.672ZM85.9321 134.08L83.7722 137.447L83.7954
+        137.462L83.8188 137.476L85.9321 134.08ZM88.4921 211.392L90.9908 214.515L88.4921
+        211.392ZM41.1321 212.16L38.7468 215.371L38.7767 215.393L38.8071 215.415L41.1321
+        212.16ZM38.8281 156.864L39.8679 160.726L39.8975 160.719L39.9269 160.71L38.8281
+        156.864ZM53.1641 156.608L57.1332 157.104L57.588 153.465L54.0022 152.697L53.1641
+        156.608ZM55.9801 198.848L58.4513 195.703L58.4513 195.703L55.9801 198.848ZM73.6441
+        198.848L71.1728 195.703L71.1157 195.748L71.0603 195.794L73.6441 198.848ZM70.3161
+        148.16L68.1339 151.512L68.1592 151.529L68.1848 151.545L70.3161 148.16ZM43.1801
+        130.496L45.3622 127.144L45.3423 127.131L45.3222 127.118L43.1801 130.496ZM36.6841
+        108.736V74.176H28.6841V108.736H36.6841ZM36.6841 74.176C36.6841 66.6562 39.1825
+        61.2061 43.9309 57.2957L38.8452 51.1203C31.9882 56.7672 28.6841 64.6291 28.6841
+        74.176H36.6841ZM43.9309 57.2957C48.8293 53.2617 55.6068 51.04 64.6841 51.04V43.04C54.3053
+        43.04 45.5522 45.5969 38.8452 51.1203L43.9309 57.2957ZM64.6841 51.04C74.0131
+        51.04 80.9121 53.1308 85.8063 56.8734L90.6659 50.5186C83.9547 45.3865 75.1524
+        43.04 64.6841 43.04V51.04ZM85.8665 56.9186C90.6795 60.4576 92.9401 64.9104
+        92.9401 70.592H100.94C100.94 62.2789 97.3979 55.4677 90.6056 50.4734L85.8665
+        56.9186ZM92.9401 70.592V102.336H100.94V70.592H92.9401ZM92.9401 102.336C92.9401
+        102.782 92.8304 103.042 92.5036 103.357C92.0615 103.782 91.1084 104.372 89.2442
+        104.874L91.324 112.598C93.897 111.906 96.2719 110.832 98.0485 109.123C99.9404
+        107.304 100.94 104.962 100.94 102.336H92.9401ZM89.1852 104.89C87.1388 105.475
+        85.1191 105.76 83.1161 105.76V113.76C85.8917 113.76 88.6506 113.363 91.3829
+        112.582L89.1852 104.89ZM83.1161 105.76C81.0148 105.76 78.9063 105.535 76.7862
+        105.081L75.1099 112.903C77.7685 113.473 80.4387 113.76 83.1161 113.76V105.76ZM79.9172
+        109.488C80.4519 105.21 80.7161 100.691 80.7161 95.936H72.7161C72.7161 100.397
+        72.4682 104.582 71.9789 108.496L79.9172 109.488ZM80.7161 95.936V74.176H72.7161V95.936H80.7161ZM80.7161
+        74.176C80.7161 69.9141 79.1939 66.1715 75.8269 63.5815L70.9492 69.9225C72.0196
+        70.7458 72.7161 71.9526 72.7161 74.176H80.7161ZM75.9718 63.6985C72.8739 61.0771
+        68.9857 59.936 64.6841 59.936V67.936C67.5504 67.936 69.4649 68.6722 70.8043
+        69.8055L75.9718 63.6985ZM64.6841 59.936C60.3824 59.936 56.4942 61.0771 53.3963
+        63.6985L58.5638 69.8055C59.9032 68.6722 61.8177 67.936 64.6841 67.936V59.936ZM53.4193
+        63.6791C50.2628 66.3096 48.9081 70.0283 48.9081 74.176H56.9081C56.9081 71.8383
+        57.6013 70.6078 58.5408 69.8249L53.4193 63.6791ZM48.9081 74.176V104.128H56.9081V74.176H48.9081ZM48.9081
+        104.128C48.9081 111.021 51.2415 116.756 56.7163 120.089L60.8758 113.255C58.5
+        111.809 56.9081 109.182 56.9081 104.128H48.9081ZM56.6362 120.039L83.7722 137.447L88.0919
+        130.713L60.9559 113.305L56.6362 120.039ZM83.8188 137.476C90.1988 141.446 93.4521
+        147.423 93.4521 156.096H101.452C101.452 144.971 97.0253 136.271 88.0453 130.684L83.8188
+        137.476ZM93.4521 156.096V191.424H101.452V156.096H93.4521ZM93.4521 191.424C93.4521
+        198.902 90.8998 204.343 85.9933 208.269L90.9908 214.515C98.031 208.883 101.452
+        201.013 101.452 191.424H93.4521ZM85.9933 208.269C80.9147 212.331 73.9445 214.56
+        64.6841 214.56V222.56C75.2209 222.56 84.1227 220.01 90.9908 214.515L85.9933
+        208.269ZM64.6841 214.56C55.5214 214.56 48.5621 212.552 43.457 208.905L38.8071
+        215.415C45.6486 220.302 54.3907 222.56 64.6841 222.56V214.56ZM43.5174 208.949C38.4847
+        205.21 36.1721 200.649 36.1721 195.008H28.1721C28.1721 203.362 31.8328 210.235
+        38.7468 215.371L43.5174 208.949ZM36.1721 195.008V163.264H28.1721V195.008H36.1721ZM36.1721
+        163.264C36.1721 162.818 36.2818 162.557 36.6085 162.243C37.0506 161.818 38.0037
+        161.228 39.8679 160.726L37.7882 153.002C35.2151 153.694 32.8402 154.768 31.0636
+        156.477C29.1717 158.296 28.1721 160.638 28.1721 163.264H36.1721ZM39.9269 160.71C41.9733
+        160.125 43.993 159.84 45.9961 159.84V151.84C43.2204 151.84 40.4615 152.237
+        37.7292 153.018L39.9269 160.71ZM45.9961 159.84C48.0973 159.84 50.2058 160.065
+        52.3259 160.519L54.0022 152.697C51.3436 152.127 48.6734 151.84 45.9961 151.84V159.84ZM49.1949
+        156.112C48.6602 160.39 48.3961 164.909 48.3961 169.664H56.3961C56.3961 165.203
+        56.6439 161.018 57.1332 157.104L49.1949 156.112ZM48.3961 169.664V191.424H56.3961V169.664H48.3961ZM48.3961
+        191.424C48.3961 195.708 50.1419 199.348 53.5088 201.993L58.4513 195.703C57.0395
+        194.593 56.3961 193.284 56.3961 191.424H48.3961ZM53.5088 201.993C56.724 204.52
+        60.6271 205.664 64.9401 205.664V197.664C62.085 197.664 60.0148 196.931 58.4513
+        195.703L53.5088 201.993ZM64.9401 205.664C69.2417 205.664 73.1299 204.523 76.2278
+        201.902L71.0603 195.794C69.7209 196.928 67.8064 197.664 64.9401 197.664V205.664ZM76.1153
+        201.993C79.4822 199.348 81.2281 195.708 81.2281 191.424H73.2281C73.2281 193.284
+        72.5846 194.593 71.1728 195.703L76.1153 201.993ZM81.2281 191.424V162.496H73.2281V191.424H81.2281ZM81.2281
+        162.496C81.2281 154.818 78.4885 148.579 72.4473 144.775L68.1848 151.545C71.3596
+        153.544 73.2281 156.862 73.2281 162.496H81.2281ZM72.4982 144.808L45.3622 127.144L40.9979
+        133.848L68.1339 151.512L72.4982 144.808ZM45.3222 127.118C39.7427 123.58 36.6841
+        117.776 36.6841 108.736H28.6841C28.6841 119.835 32.6227 128.538 41.0379 133.874L45.3222
+        127.118ZM200.992 49.6L200.525 45.6274L196.169 46.1398L197.079 50.43L200.992
+        49.6ZM214.304 211.392L216.847 214.48L216.847 214.48L214.304 211.392ZM168.48
+        211.392L171.308 208.564L168.48 205.735L165.652 208.564L168.48 211.392ZM123.68
+        211.904L121.11 214.969L121.133 214.989L121.158 215.008L123.68 211.904ZM113.44
+        63.936L110.45 66.5934L110.607 66.7693L110.783 66.9256L113.44 63.936ZM106.016
+        61.632H102.016V65.632H106.016V61.632ZM139.04 199.104L136.337 202.053L136.464
+        202.169L136.601 202.274L139.04 199.104ZM155.936 199.36L158.213 202.649L158.295
+        202.592L158.375 202.53L155.936 199.36ZM157.472 49.6L157.005 45.6274L152.649
+        46.1398L153.559 50.43L157.472 49.6ZM182.56 199.104L179.857 202.053L179.984
+        202.169L180.121 202.274L182.56 199.104ZM199.456 199.104L202.017 202.177L202.028
+        202.167L202.04 202.158L199.456 199.104ZM206.784 70.592C206.784 62.0637 206.177
+        54.767 204.905 48.77L197.079 50.43C198.196 55.697 198.784 62.3949 198.784
+        70.592H206.784ZM201.459 53.5726C207.104 52.9086 212.835 52.576 218.656 52.576V44.576C212.53
+        44.576 206.486 44.9261 200.525 45.6274L201.459 53.5726ZM218.656 52.576C219.1
+        52.576 219.34 52.6264 219.431 52.6535C219.51 52.6766 219.419 52.6635 219.274
+        52.5353C219.204 52.4739 219.14 52.4019 219.088 52.3252C219.037 52.2495 219.008
+        52.1864 218.994 52.1496C218.968 52.0816 219.008 52.144 219.008 52.416H227.008C227.008
+        50.3805 226.408 48.1617 224.567 46.5366C222.82 44.9959 220.609 44.576 218.656
+        44.576V52.576ZM219.008 52.416V191.424H227.008V52.416H219.008ZM219.008 191.424C219.008
+        198.944 216.51 204.394 211.761 208.304L216.847 214.48C223.704 208.833 227.008
+        200.971 227.008 191.424H219.008ZM211.761 208.304C206.886 212.319 199.954 214.56
+        190.496 214.56V222.56C201.177 222.56 210.117 220.022 216.847 214.48L211.761
+        208.304ZM190.496 214.56C181.166 214.56 175.049 212.304 171.308 208.564L165.652
+        214.22C171.468 220.037 180.028 222.56 190.496 222.56V214.56ZM165.652 208.564C161.911
+        212.304 155.794 214.56 146.464 214.56V222.56C156.932 222.56 165.492 220.037
+        171.308 214.22L165.652 208.564ZM146.464 214.56C137.307 214.56 130.721 212.471
+        126.202 208.8L121.158 215.008C127.562 220.212 136.165 222.56 146.464 222.56V214.56ZM126.251
+        208.839C122.076 205.338 119.744 200.103 119.744 192.448H111.744C111.744 201.86
+        114.703 209.595 121.11 214.969L126.251 208.839ZM119.744 192.448V71.36H111.744V192.448H119.744ZM119.744
+        71.36C119.744 67.4355 118.944 63.4768 116.098 60.9464L110.783 66.9256C111.008
+        67.1259 111.744 68.1165 111.744 71.36H119.744ZM116.43 61.2785C113.899 58.4318
+        109.941 57.632 106.016 57.632V65.632C109.26 65.632 110.25 66.3682 110.45 66.5934L116.43
+        61.2785ZM110.016 61.632C110.016 57.5123 111.151 55.119 112.772 53.6751C114.482
+        52.1525 117.448 51.04 122.4 51.04V43.04C116.429 43.04 111.204 44.3594 107.452
+        47.7009C103.612 51.121 102.016 56.0237 102.016 61.632H110.016ZM122.4 51.04C125.982
+        51.04 128.066 52.1515 129.404 53.8926C130.895 55.8336 131.968 59.2159 131.968
+        64.704H139.968C139.968 58.4161 138.78 52.9663 135.748 49.0194C132.563 44.8725
+        127.863 43.04 122.4 43.04V51.04ZM131.968 64.704V191.424H139.968V64.704H131.968ZM131.968
+        191.424C131.968 195.583 133.323 199.289 136.337 202.053L141.743 196.155C140.662
+        195.164 139.968 193.751 139.968 191.424H131.968ZM136.601 202.274C139.662 204.629
+        143.391 205.664 147.488 205.664V197.664C144.758 197.664 142.856 196.993 141.479
+        195.934L136.601 202.274ZM147.488 205.664C151.499 205.664 155.167 204.757 158.213
+        202.649L153.659 196.071C152.267 197.035 150.304 197.664 147.488 197.664V205.664ZM158.375
+        202.53C161.619 200.035 163.264 196.538 163.264 192.448H155.264C155.264 194.16
+        154.69 195.272 153.497 196.19L158.375 202.53ZM163.264 192.448V70.592H155.264V192.448H163.264ZM163.264
+        70.592C163.264 62.0637 162.657 54.767 161.385 48.77L153.559 50.43C154.676
+        55.697 155.264 62.3949 155.264 70.592H163.264ZM157.939 53.5726C163.584 52.9086
+        169.315 52.576 175.136 52.576V44.576C169.01 44.576 162.966 44.9261 157.005
+        45.6274L157.939 53.5726ZM175.136 52.576C175.58 52.576 175.82 52.6264 175.911
+        52.6535C175.99 52.6766 175.899 52.6635 175.754 52.5353C175.684 52.4739 175.62
+        52.4019 175.568 52.3252C175.517 52.2495 175.488 52.1864 175.474 52.1496C175.448
+        52.0816 175.488 52.144 175.488 52.416H183.488C183.488 50.3805 182.888 48.1617
+        181.047 46.5366C179.3 44.9959 177.089 44.576 175.136 44.576V52.576ZM175.488
+        52.416V191.424H183.488V52.416H175.488ZM175.488 191.424C175.488 195.583 176.843
+        199.289 179.857 202.053L185.263 196.155C184.182 195.164 183.488 193.751 183.488
+        191.424H175.488ZM180.121 202.274C183.182 204.629 186.911 205.664 191.008 205.664V197.664C188.278
+        197.664 186.376 196.993 184.999 195.934L180.121 202.274ZM191.008 205.664C195.204
+        205.664 199.035 204.661 202.017 202.177L196.895 196.031C195.781 196.96 193.98
+        197.664 191.008 197.664V205.664ZM202.04 202.158C205.267 199.427 206.784 195.69
+        206.784 191.424H198.784C198.784 193.643 198.082 195.027 196.872 196.05L202.04
+        202.158ZM206.784 191.424V70.592H198.784V191.424H206.784Z\" fill=\"#FFE81F\"></path></svg></div><div
+        class=\"text-2xl font-black md:text-3xl text-[#FFE81F] dark:text=[#ffe81f]
+        lowercase\">swapi</div></a><div class=\"items-center justify-center hidden
+        gap-2 sm:flex\"><a class=\"inline-flex gap-1 items-center font-medium px-2
+        py-2 dark:hover:bg-[#FFE81F25] rounded-md duration-100\" href=\"/films\">Films</a><a
+        class=\"inline-flex gap-1 items-center font-medium px-2 py-2 dark:hover:bg-[#FFE81F25]
+        rounded-md duration-100\" href=\"/people\">People</a><a class=\"inline-flex
+        gap-1 items-center font-medium px-2 py-2 dark:hover:bg-[#FFE81F25] rounded-md
+        duration-100\" href=\"/planets\">Planets</a><a class=\"inline-flex gap-1 items-center
+        font-medium px-2 py-2 dark:hover:bg-[#FFE81F25] rounded-md duration-100\"
+        href=\"/species\">Species</a><a class=\"inline-flex gap-1 items-center font-medium
+        px-2 py-2 dark:hover:bg-[#FFE81F25] rounded-md duration-100\" href=\"/vehicles\">Vehicles</a><a
+        class=\"inline-flex gap-1 items-center font-medium px-2 py-2 dark:hover:bg-[#FFE81F25]
+        rounded-md duration-100\" href=\"/starships\">Starships</a><a href=\"https://github.com/SivaramPg/swapi.info\"
+        class=\"mr-4\"><svg width=\"32\" height=\"32\" class=\"invert-0 dark:invert\"><title>github</title><use
+        href=\"/icons/sprite.svg#github\"></use></svg></a></div></nav></header><main
+        class=\"w-full min-h-[calc(100vh-64px)] relative\"><div style=\"font-family:system-ui,&quot;Segoe
+        UI&quot;,Roboto,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe
+        UI Emoji&quot;;height:100vh;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center\"><div><style>body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px
+        solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px
+        solid rgba(255,255,255,.3)}}</style><h1 class=\"next-error-h1\" style=\"display:inline-block;margin:0
+        20px 0 0;padding:0 23px 0 0;font-size:24px;font-weight:500;vertical-align:top;line-height:49px\">404</h1><div
+        style=\"display:inline-block\"><h2 style=\"font-size:14px;font-weight:400;line-height:49px;margin:0\">This
+        page could not be found.</h2></div></div></div><!--$--><!--/$--><div class=\"fixed
+        z-50 bottom-[90px] right-[30px] rounded-3xl flex flex-col items-center justify-between
+        gap-4 w-auto mx-auto sm:hidden p-3 grow bg-linear-to-t from-cyan-500 to-blue-500
+        shadow-lg shadow-gray-500\"><svg width=\"28\" height=\"28\" class=\"dark:invert
+        invert drop-shadow-md\"><title>eye-open</title><use href=\"/icons/sprite.svg#eye-open\"></use></svg></div></main><div
+        class=\"w-full pt-8 pb-4 border-t\"><footer class=\"container flex flex-col
+        items-center justify-around w-full gap-4 px-4 mx-auto h-fit\"><div class=\"flex
+        flex-wrap items-center justify-between w-full gap-4 md:gap-8\"><div><p class=\"inline-flex
+        items-center gap-1 font-medium whitespace-nowrap\">Made with<svg width=\"20\"
+        height=\"20\" class=\"invert-0 dark:invert invert-0!\"><title>heart</title><use
+        href=\"/icons/sprite.svg#heart\"></use></svg>by<a href=\"https://github.com/SivaramPg\"
+        class=\"font-bold underline underline-offset-4\">Sivaram P</a><span class=\"hidden
+        ml-2 font-bold md:block\">\xA9<!-- -->2025</span></p></div><div class=\"flex
+        items-center justify-center gap-4\"><a href=\"https://sivaramp.com\" target=\"_blank\"
+        rel=\"noopener noreferrer\"><div class=\"flex items-center justify-center
+        gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md\"><svg width=\"28\"
+        height=\"28\" class=\"invert-0 dark:invert\"><title>website</title><use href=\"/icons/sprite.svg#website\"></use></svg></div></a><a
+        href=\"https://github.com/SivaramPg\" target=\"_blank\" rel=\"noopener noreferrer\"><div
+        class=\"flex items-center justify-center gap-1 opacity-80 hover:opacity-100
+        hover:drop-shadow-md\"><svg width=\"28\" height=\"28\" class=\"invert-0 dark:invert\"><title>github</title><use
+        href=\"/icons/sprite.svg#github\"></use></svg></div></a></div></div><div class=\"flex
+        flex-wrap items-center justify-between w-full gap-8\"><p class=\"inline-flex
+        items-center gap-2 text-sm sm:text-base font-medium whitespace-nowrap\">Credits:<!--
+        --> <a class=\"underline underline-offset-4\" href=\"https://github.com/phalt\"
+        target=\"_blank\" rel=\"noopener noreferrer\">Paul Hallett</a>&amp;<a class=\"underline
+        underline-offset-4\" href=\"https://github.com/Juriy\" target=\"_blank\" rel=\"noopener
+        noreferrer\">Juriy Bura</a></p></div></footer></div></main><a href=\"https://status.swapi.info\"
+        target=\"_blank\" rel=\"noopener noreferrer\" class=\"border rounded-md border-white
+        px-3 py-2 inline-flex items-center justify-center gap-2 text-xs font-medium
+        dark:bg-[#FFE81F25] hover:border-[#FFE81F] backdrop-blur-3xl group min-h-10
+        fixed right-6 bottom-6\"><span class=\"relative flex h-3 w-3\"><span class=\"animate-ping
+        absolute inline-flex h-full w-full rounded-full bg-[#FFE81F] opacity-75\"></span><span
+        class=\"relative inline-flex rounded-full h-3 w-3 bg-[#FFE81F]\"></span></span><span
+        class=\"w-0 hidden group-hover:block overflow-hidden group-hover:w-fit group-hover:overflow-visible
+        transition-all duration-100\">All Systems Normal</span><span class=\"block
+        group-hover:hidden\">Good</span></a><script src=\"/_next/static/chunks/e491d436f4519dd0.js\"
+        id=\"_R_\" async=\"\"></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[44636,[\\\"/_next/static/chunks/ec0d7504612eefb4.js\\\",\\\"/_next/static/chunks/d48380b47555771d.js\\\",\\\"/_next/static/chunks/b25063d3bc4a9003.js\\\"],\\\"Providers\\\"]\\n3:I[5500,[\\\"/_next/static/chunks/ec0d7504612eefb4.js\\\",\\\"/_next/static/chunks/d48380b47555771d.js\\\",\\\"/_next/static/chunks/b25063d3bc4a9003.js\\\"],\\\"Image\\\"]\\n4:I[22016,[\\\"/_next/static/chunks/ec0d7504612eefb4.js\\\",\\\"/_next/static/chunks/d48380b47555771d.js\\\",\\\"/_next/static/chunks/b25063d3bc4a9003.js\\\"],\\\"\\\"]\\nf:I[68027,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/926350dec3317ae7.js\\\"],\\\"default\\\"]\\n:HL[\\\"/_next/static/chunks/fafbdc4bfecd4299.css\\\",\\\"style\\\"]\\n5:Ta1c,\"])</script><script>self.__next_f.push([1,\"M32.6841
+        108.736V74.176C32.6841 65.6427 35.5854 58.9867 41.3881 54.208C47.1907 49.4293
+        54.9561 47.04 64.6841 47.04C74.5827 47.04 82.4334 49.2587 88.2361 53.696C94.0387
+        57.9627 96.9401 63.5947 96.9401 70.592V102.336C96.9401 105.408 94.7214 107.541
+        90.2841 108.736C87.8947 109.419 85.5054 109.76 83.1161 109.76C80.7267 109.76
+        78.3374 109.504 75.9481 108.992C76.4601 104.896 76.7161 100.544 76.7161 95.936V74.176C76.7161
+        70.9333 75.6067 68.4587 73.3881 66.752C71.1694 64.8747 68.2681 63.936 64.6841
+        63.936C61.1001 63.936 58.1987 64.8747 55.9801 66.752C53.9321 68.4587 52.9081
+        70.9333 52.9081 74.176V104.128C52.9081 110.101 54.8707 114.283 58.7961 116.672L85.9321
+        134.08C93.6121 138.859 97.4521 146.197 97.4521 156.096V191.424C97.4521 199.957
+        94.4654 206.613 88.4921 211.392C82.5187 216.171 74.5827 218.56 64.6841 218.56C54.9561
+        218.56 47.1054 216.427 41.1321 212.16C35.1587 207.723 32.1721 202.005 32.1721
+        195.008V163.264C32.1721 160.192 34.3907 158.059 38.8281 156.864C41.2174 156.181
+        43.6067 155.84 45.9961 155.84C48.3854 155.84 50.7747 156.096 53.1641 156.608C52.6521
+        160.704 52.3961 165.056 52.3961 169.664V191.424C52.3961 194.496 53.5907 196.971
+        55.9801 198.848C58.3694 200.725 61.3561 201.664 64.9401 201.664C68.5241 201.664
+        71.4254 200.725 73.6441 198.848C76.0334 196.971 77.2281 194.496 77.2281 191.424V162.496C77.2281
+        155.84 74.9241 151.061 70.3161 148.16L43.1801 130.496C36.1827 126.059 32.6841
+        118.805 32.6841 108.736ZM202.784 70.592C202.784 62.2293 202.187 55.232 200.992
+        49.6C206.795 48.9173 212.683 48.576 218.656 48.576C221.557 48.576 223.008
+        49.856 223.008 52.416V191.424C223.008 199.957 220.107 206.613 214.304 211.392C208.501
+        216.171 200.565 218.56 190.496 218.56C180.597 218.56 173.259 216.171 168.48
+        211.392C163.701 216.171 156.363 218.56 146.464 218.56C136.736 218.56 129.141
+        216.341 123.68 211.904C118.389 207.467 115.744 200.981 115.744 192.448V71.36C115.744
+        67.776 114.976 65.3013 113.44 63.936C112.075 62.4 109.6 61.632 106.016 61.632C106.016
+        51.904 111.477 47.04 122.4 47.04C131.445 47.04 135.968 52.928 135.968 64.704V191.424C135.968
+        194.667 136.992 197.227 139.04 199.104C141.259 200.811 144.075 201.664 147.488
+        201.664C150.901 201.664 153.717 200.896 155.936 199.36C158.155 197.653 159.264
+        195.349 159.264 192.448V70.592C159.264 62.2293 158.667 55.232 157.472 49.6C163.275
+        48.9173 169.163 48.576 175.136 48.576C178.037 48.576 179.488 49.856 179.488
+        52.416V191.424C179.488 194.667 180.512 197.227 182.56 199.104C184.779 200.811
+        187.595 201.664 191.008 201.664C194.592 201.664 197.408 200.811 199.456 199.104C201.675
+        197.227 202.784 194.667 202.784 191.424V70.592Z\"])</script><script>self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"1pPYfUC6WJNDmwROsNGtC\\\",\\\"c\\\":[\\\"\\\",\\\"_not-found\\\"],\\\"q\\\":\\\"\\\",\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[\\\"/_not-found\\\",{\\\"children\\\":[\\\"__PAGE__\\\",{}]}]},\\\"$undefined\\\",\\\"$undefined\\\",true],[[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[[\\\"$\\\",\\\"link\\\",\\\"0\\\",{\\\"rel\\\":\\\"stylesheet\\\",\\\"href\\\":\\\"/_next/static/chunks/fafbdc4bfecd4299.css\\\",\\\"precedence\\\":\\\"next\\\",\\\"crossOrigin\\\":\\\"$undefined\\\",\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-0\\\",{\\\"src\\\":\\\"/_next/static/chunks/ec0d7504612eefb4.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-1\\\",{\\\"src\\\":\\\"/_next/static/chunks/d48380b47555771d.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"script\\\",\\\"script-2\\\",{\\\"src\\\":\\\"/_next/static/chunks/b25063d3bc4a9003.js\\\",\\\"async\\\":true,\\\"nonce\\\":\\\"$undefined\\\"}]],[\\\"$\\\",\\\"html\\\",null,{\\\"lang\\\":\\\"en\\\",\\\"suppressHydrationWarning\\\":true,\\\"children\\\":[\\\"$\\\",\\\"body\\\",null,{\\\"className\\\":\\\"bricolage_grotesque_494c1dc1-module__ZQknHa__variable
+        martian_mono_adaa65e0-module__2sM0OW__variable bg-[#f5f5f5] text-[#121212]
+        dark:bg-[#121212] dark:text-[#f5f5f5]\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L2\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"$L3\\\",null,{\\\"priority\\\":true,\\\"src\\\":\\\"/icons/sprite.svg\\\",\\\"width\\\":0,\\\"height\\\":0,\\\"alt\\\":\\\"Prefetch
+        SVG Sprites\\\",\\\"className\\\":\\\"hidden\\\"}],[\\\"$\\\",\\\"main\\\",null,{\\\"className\\\":\\\"w-full
+        min-h-screen\\\",\\\"children\\\":[[\\\"$\\\",\\\"header\\\",null,{\\\"className\\\":\\\"sticky
+        top-0 left-0 right-0 z-50 w-full h-16 bg-[#FFE81F11] border-b shadow-md  backdrop-blur\\\",\\\"children\\\":[\\\"$\\\",\\\"nav\\\",null,{\\\"className\\\":\\\"flex
+        items-center justify-between h-full gap-4 px-4 mx-auto\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L4\\\",null,{\\\"href\\\":\\\"/\\\",\\\"className\\\":\\\"inline-flex
+        items-center gap-2\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"w-10
+        h-10\\\",\\\"children\\\":[\\\"$\\\",\\\"svg\\\",null,{\\\"viewBox\\\":\\\"0
+        0 256 256\\\",\\\"fill\\\":\\\"none\\\",\\\"xmlns\\\":\\\"http://www.w3.org/2000/svg\\\",\\\"children\\\":[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"swapi.info
+        logo\\\"}],[\\\"$\\\",\\\"rect\\\",null,{\\\"width\\\":\\\"255.004\\\",\\\"height\\\":\\\"256\\\",\\\"fill\\\":\\\"black\\\"}],[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"$5\\\",\\\"fill\\\":\\\"#FFE81F\\\"}],\\\"$L6\\\"]}]}],\\\"$L7\\\"]}],\\\"$L8\\\"]}]}],\\\"$L9\\\",\\\"$La\\\"]}]]}],\\\"$Lb\\\"]}]}]]}],{\\\"children\\\":[\\\"$Lc\\\",{\\\"children\\\":[\\\"$Ld\\\",{},null,false,false]},null,false,false]},null,false,false],\\\"$Le\\\",false]],\\\"m\\\":\\\"$undefined\\\",\\\"G\\\":[\\\"$f\\\",\\\"$undefined\\\"],\\\"S\\\":true}\\n\"])</script><script>self.__next_f.push([1,\"11:I[39756,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/926350dec3317ae7.js\\\"],\\\"default\\\"]\\n12:I[37457,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/926350dec3317ae7.js\\\"],\\\"default\\\"]\\n13:I[6673,[\\\"/_next/static/chunks/ec0d7504612eefb4.js\\\",\\\"/_next/static/chunks/d48380b47555771d.js\\\",\\\"/_next/static/chunks/b25063d3bc4a9003.js\\\"],\\\"default\\\"]\\n14:I[97367,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/926350dec3317ae7.js\\\"],\\\"OutletBoundary\\\"]\\n15:\\\"$Sreact.suspense\\\"\\n17:I[97367,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/926350dec3317ae7.js\\\"],\\\"ViewportBoundary\\\"]\\n19:I[97367,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/926350dec3317ae7.js\\\"],\\\"MetadataBoundary\\\"]\\n10:T2958,\"])</script><script>self.__next_f.push([1,\"M41.3881
+        54.208L43.9309 57.2957L43.9309 57.2957L41.3881 54.208ZM88.2361 53.696L85.8063
+        56.8734L85.8362 56.8963L85.8665 56.9186L88.2361 53.696ZM90.2841 108.736L89.2442
+        104.874L89.2146 104.881L89.1852 104.89L90.2841 108.736ZM75.9481 108.992L71.9789
+        108.496L71.5241 112.135L75.1099 112.903L75.9481 108.992ZM73.3881 66.752L70.8043
+        69.8055L70.8754 69.8657L70.9492 69.9225L73.3881 66.752ZM55.9801 66.752L58.5408
+        69.8249L58.5523 69.8153L58.5638 69.8055L55.9801 66.752ZM58.7961 116.672L60.9559
+        113.305L60.9162 113.28L60.8758 113.255L58.7961 116.672ZM85.9321 134.08L83.7722
+        137.447L83.7954 137.462L83.8188 137.476L85.9321 134.08ZM88.4921 211.392L90.9908
+        214.515L88.4921 211.392ZM41.1321 212.16L38.7468 215.371L38.7767 215.393L38.8071
+        215.415L41.1321 212.16ZM38.8281 156.864L39.8679 160.726L39.8975 160.719L39.9269
+        160.71L38.8281 156.864ZM53.1641 156.608L57.1332 157.104L57.588 153.465L54.0022
+        152.697L53.1641 156.608ZM55.9801 198.848L58.4513 195.703L58.4513 195.703L55.9801
+        198.848ZM73.6441 198.848L71.1728 195.703L71.1157 195.748L71.0603 195.794L73.6441
+        198.848ZM70.3161 148.16L68.1339 151.512L68.1592 151.529L68.1848 151.545L70.3161
+        148.16ZM43.1801 130.496L45.3622 127.144L45.3423 127.131L45.3222 127.118L43.1801
+        130.496ZM36.6841 108.736V74.176H28.6841V108.736H36.6841ZM36.6841 74.176C36.6841
+        66.6562 39.1825 61.2061 43.9309 57.2957L38.8452 51.1203C31.9882 56.7672 28.6841
+        64.6291 28.6841 74.176H36.6841ZM43.9309 57.2957C48.8293 53.2617 55.6068 51.04
+        64.6841 51.04V43.04C54.3053 43.04 45.5522 45.5969 38.8452 51.1203L43.9309
+        57.2957ZM64.6841 51.04C74.0131 51.04 80.9121 53.1308 85.8063 56.8734L90.6659
+        50.5186C83.9547 45.3865 75.1524 43.04 64.6841 43.04V51.04ZM85.8665 56.9186C90.6795
+        60.4576 92.9401 64.9104 92.9401 70.592H100.94C100.94 62.2789 97.3979 55.4677
+        90.6056 50.4734L85.8665 56.9186ZM92.9401 70.592V102.336H100.94V70.592H92.9401ZM92.9401
+        102.336C92.9401 102.782 92.8304 103.042 92.5036 103.357C92.0615 103.782 91.1084
+        104.372 89.2442 104.874L91.324 112.598C93.897 111.906 96.2719 110.832 98.0485
+        109.123C99.9404 107.304 100.94 104.962 100.94 102.336H92.9401ZM89.1852 104.89C87.1388
+        105.475 85.1191 105.76 83.1161 105.76V113.76C85.8917 113.76 88.6506 113.363
+        91.3829 112.582L89.1852 104.89ZM83.1161 105.76C81.0148 105.76 78.9063 105.535
+        76.7862 105.081L75.1099 112.903C77.7685 113.473 80.4387 113.76 83.1161 113.76V105.76ZM79.9172
+        109.488C80.4519 105.21 80.7161 100.691 80.7161 95.936H72.7161C72.7161 100.397
+        72.4682 104.582 71.9789 108.496L79.9172 109.488ZM80.7161 95.936V74.176H72.7161V95.936H80.7161ZM80.7161
+        74.176C80.7161 69.9141 79.1939 66.1715 75.8269 63.5815L70.9492 69.9225C72.0196
+        70.7458 72.7161 71.9526 72.7161 74.176H80.7161ZM75.9718 63.6985C72.8739 61.0771
+        68.9857 59.936 64.6841 59.936V67.936C67.5504 67.936 69.4649 68.6722 70.8043
+        69.8055L75.9718 63.6985ZM64.6841 59.936C60.3824 59.936 56.4942 61.0771 53.3963
+        63.6985L58.5638 69.8055C59.9032 68.6722 61.8177 67.936 64.6841 67.936V59.936ZM53.4193
+        63.6791C50.2628 66.3096 48.9081 70.0283 48.9081 74.176H56.9081C56.9081 71.8383
+        57.6013 70.6078 58.5408 69.8249L53.4193 63.6791ZM48.9081 74.176V104.128H56.9081V74.176H48.9081ZM48.9081
+        104.128C48.9081 111.021 51.2415 116.756 56.7163 120.089L60.8758 113.255C58.5
+        111.809 56.9081 109.182 56.9081 104.128H48.9081ZM56.6362 120.039L83.7722 137.447L88.0919
+        130.713L60.9559 113.305L56.6362 120.039ZM83.8188 137.476C90.1988 141.446 93.4521
+        147.423 93.4521 156.096H101.452C101.452 144.971 97.0253 136.271 88.0453 130.684L83.8188
+        137.476ZM93.4521 156.096V191.424H101.452V156.096H93.4521ZM93.4521 191.424C93.4521
+        198.902 90.8998 204.343 85.9933 208.269L90.9908 214.515C98.031 208.883 101.452
+        201.013 101.452 191.424H93.4521ZM85.9933 208.269C80.9147 212.331 73.9445 214.56
+        64.6841 214.56V222.56C75.2209 222.56 84.1227 220.01 90.9908 214.515L85.9933
+        208.269ZM64.6841 214.56C55.5214 214.56 48.5621 212.552 43.457 208.905L38.8071
+        215.415C45.6486 220.302 54.3907 222.56 64.6841 222.56V214.56ZM43.5174 208.949C38.4847
+        205.21 36.1721 200.649 36.1721 195.008H28.1721C28.1721 203.362 31.8328 210.235
+        38.7468 215.371L43.5174 208.949ZM36.1721 195.008V163.264H28.1721V195.008H36.1721ZM36.1721
+        163.264C36.1721 162.818 36.2818 162.557 36.6085 162.243C37.0506 161.818 38.0037
+        161.228 39.8679 160.726L37.7882 153.002C35.2151 153.694 32.8402 154.768 31.0636
+        156.477C29.1717 158.296 28.1721 160.638 28.1721 163.264H36.1721ZM39.9269 160.71C41.9733
+        160.125 43.993 159.84 45.9961 159.84V151.84C43.2204 151.84 40.4615 152.237
+        37.7292 153.018L39.9269 160.71ZM45.9961 159.84C48.0973 159.84 50.2058 160.065
+        52.3259 160.519L54.0022 152.697C51.3436 152.127 48.6734 151.84 45.9961 151.84V159.84ZM49.1949
+        156.112C48.6602 160.39 48.3961 164.909 48.3961 169.664H56.3961C56.3961 165.203
+        56.6439 161.018 57.1332 157.104L49.1949 156.112ZM48.3961 169.664V191.424H56.3961V169.664H48.3961ZM48.3961
+        191.424C48.3961 195.708 50.1419 199.348 53.5088 201.993L58.4513 195.703C57.0395
+        194.593 56.3961 193.284 56.3961 191.424H48.3961ZM53.5088 201.993C56.724 204.52
+        60.6271 205.664 64.9401 205.664V197.664C62.085 197.664 60.0148 196.931 58.4513
+        195.703L53.5088 201.993ZM64.9401 205.664C69.2417 205.664 73.1299 204.523 76.2278
+        201.902L71.0603 195.794C69.7209 196.928 67.8064 197.664 64.9401 197.664V205.664ZM76.1153
+        201.993C79.4822 199.348 81.2281 195.708 81.2281 191.424H73.2281C73.2281 193.284
+        72.5846 194.593 71.1728 195.703L76.1153 201.993ZM81.2281 191.424V162.496H73.2281V191.424H81.2281ZM81.2281
+        162.496C81.2281 154.818 78.4885 148.579 72.4473 144.775L68.1848 151.545C71.3596
+        153.544 73.2281 156.862 73.2281 162.496H81.2281ZM72.4982 144.808L45.3622 127.144L40.9979
+        133.848L68.1339 151.512L72.4982 144.808ZM45.3222 127.118C39.7427 123.58 36.6841
+        117.776 36.6841 108.736H28.6841C28.6841 119.835 32.6227 128.538 41.0379 133.874L45.3222
+        127.118ZM200.992 49.6L200.525 45.6274L196.169 46.1398L197.079 50.43L200.992
+        49.6ZM214.304 211.392L216.847 214.48L216.847 214.48L214.304 211.392ZM168.48
+        211.392L171.308 208.564L168.48 205.735L165.652 208.564L168.48 211.392ZM123.68
+        211.904L121.11 214.969L121.133 214.989L121.158 215.008L123.68 211.904ZM113.44
+        63.936L110.45 66.5934L110.607 66.7693L110.783 66.9256L113.44 63.936ZM106.016
+        61.632H102.016V65.632H106.016V61.632ZM139.04 199.104L136.337 202.053L136.464
+        202.169L136.601 202.274L139.04 199.104ZM155.936 199.36L158.213 202.649L158.295
+        202.592L158.375 202.53L155.936 199.36ZM157.472 49.6L157.005 45.6274L152.649
+        46.1398L153.559 50.43L157.472 49.6ZM182.56 199.104L179.857 202.053L179.984
+        202.169L180.121 202.274L182.56 199.104ZM199.456 199.104L202.017 202.177L202.028
+        202.167L202.04 202.158L199.456 199.104ZM206.784 70.592C206.784 62.0637 206.177
+        54.767 204.905 48.77L197.079 50.43C198.196 55.697 198.784 62.3949 198.784
+        70.592H206.784ZM201.459 53.5726C207.104 52.9086 212.835 52.576 218.656 52.576V44.576C212.53
+        44.576 206.486 44.9261 200.525 45.6274L201.459 53.5726ZM218.656 52.576C219.1
+        52.576 219.34 52.6264 219.431 52.6535C219.51 52.6766 219.419 52.6635 219.274
+        52.5353C219.204 52.4739 219.14 52.4019 219.088 52.3252C219.037 52.2495 219.008
+        52.1864 218.994 52.1496C218.968 52.0816 219.008 52.144 219.008 52.416H227.008C227.008
+        50.3805 226.408 48.1617 224.567 46.5366C222.82 44.9959 220.609 44.576 218.656
+        44.576V52.576ZM219.008 52.416V191.424H227.008V52.416H219.008ZM219.008 191.424C219.008
+        198.944 216.51 204.394 211.761 208.304L216.847 214.48C223.704 208.833 227.008
+        200.971 227.008 191.424H219.008ZM211.761 208.304C206.886 212.319 199.954 214.56
+        190.496 214.56V222.56C201.177 222.56 210.117 220.022 216.847 214.48L211.761
+        208.304ZM190.496 214.56C181.166 214.56 175.049 212.304 171.308 208.564L165.652
+        214.22C171.468 220.037 180.028 222.56 190.496 222.56V214.56ZM165.652 208.564C161.911
+        212.304 155.794 214.56 146.464 214.56V222.56C156.932 222.56 165.492 220.037
+        171.308 214.22L165.652 208.564ZM146.464 214.56C137.307 214.56 130.721 212.471
+        126.202 208.8L121.158 215.008C127.562 220.212 136.165 222.56 146.464 222.56V214.56ZM126.251
+        208.839C122.076 205.338 119.744 200.103 119.744 192.448H111.744C111.744 201.86
+        114.703 209.595 121.11 214.969L126.251 208.839ZM119.744 192.448V71.36H111.744V192.448H119.744ZM119.744
+        71.36C119.744 67.4355 118.944 63.4768 116.098 60.9464L110.783 66.9256C111.008
+        67.1259 111.744 68.1165 111.744 71.36H119.744ZM116.43 61.2785C113.899 58.4318
+        109.941 57.632 106.016 57.632V65.632C109.26 65.632 110.25 66.3682 110.45 66.5934L116.43
+        61.2785ZM110.016 61.632C110.016 57.5123 111.151 55.119 112.772 53.6751C114.482
+        52.1525 117.448 51.04 122.4 51.04V43.04C116.429 43.04 111.204 44.3594 107.452
+        47.7009C103.612 51.121 102.016 56.0237 102.016 61.632H110.016ZM122.4 51.04C125.982
+        51.04 128.066 52.1515 129.404 53.8926C130.895 55.8336 131.968 59.2159 131.968
+        64.704H139.968C139.968 58.4161 138.78 52.9663 135.748 49.0194C132.563 44.8725
+        127.863 43.04 122.4 43.04V51.04ZM131.968 64.704V191.424H139.968V64.704H131.968ZM131.968
+        191.424C131.968 195.583 133.323 199.289 136.337 202.053L141.743 196.155C140.662
+        195.164 139.968 193.751 139.968 191.424H131.968ZM136.601 202.274C139.662 204.629
+        143.391 205.664 147.488 205.664V197.664C144.758 197.664 142.856 196.993 141.479
+        195.934L136.601 202.274ZM147.488 205.664C151.499 205.664 155.167 204.757 158.213
+        202.649L153.659 196.071C152.267 197.035 150.304 197.664 147.488 197.664V205.664ZM158.375
+        202.53C161.619 200.035 163.264 196.538 163.264 192.448H155.264C155.264 194.16
+        154.69 195.272 153.497 196.19L158.375 202.53ZM163.264 192.448V70.592H155.264V192.448H163.264ZM163.264
+        70.592C163.264 62.0637 162.657 54.767 161.385 48.77L153.559 50.43C154.676
+        55.697 155.264 62.3949 155.264 70.592H163.264ZM157.939 53.5726C163.584 52.9086
+        169.315 52.576 175.136 52.576V44.576C169.01 44.576 162.966 44.9261 157.005
+        45.6274L157.939 53.5726ZM175.136 52.576C175.58 52.576 175.82 52.6264 175.911
+        52.6535C175.99 52.6766 175.899 52.6635 175.754 52.5353C175.684 52.4739 175.62
+        52.4019 175.568 52.3252C175.517 52.2495 175.488 52.1864 175.474 52.1496C175.448
+        52.0816 175.488 52.144 175.488 52.416H183.488C183.488 50.3805 182.888 48.1617
+        181.047 46.5366C179.3 44.9959 177.089 44.576 175.136 44.576V52.576ZM175.488
+        52.416V191.424H183.488V52.416H175.488ZM175.488 191.424C175.488 195.583 176.843
+        199.289 179.857 202.053L185.263 196.155C184.182 195.164 183.488 193.751 183.488
+        191.424H175.488ZM180.121 202.274C183.182 204.629 186.911 205.664 191.008 205.664V197.664C188.278
+        197.664 186.376 196.993 184.999 195.934L180.121 202.274ZM191.008 205.664C195.204
+        205.664 199.035 204.661 202.017 202.177L196.895 196.031C195.781 196.96 193.98
+        197.664 191.008 197.664V205.664ZM202.04 202.158C205.267 199.427 206.784 195.69
+        206.784 191.424H198.784C198.784 193.643 198.082 195.027 196.872 196.05L202.04
+        202.158ZM206.784 191.424V70.592H198.784V191.424H206.784Z\"])</script><script>self.__next_f.push([1,\"6:[\\\"$\\\",\\\"path\\\",null,{\\\"d\\\":\\\"$10\\\",\\\"fill\\\":\\\"#FFE81F\\\"}]\\n7:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"text-2xl
+        font-black md:text-3xl text-[#FFE81F] dark:text=[#ffe81f] lowercase\\\",\\\"children\\\":\\\"swapi\\\"}]\\n\"])</script><script>self.__next_f.push([1,\"8:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"items-center
+        justify-center hidden gap-2 sm:flex\\\",\\\"children\\\":[[[\\\"$\\\",\\\"$L4\\\",\\\"/films\\\",{\\\"prefetch\\\":true,\\\"href\\\":\\\"/films\\\",\\\"className\\\":\\\"inline-flex
+        gap-1 items-center font-medium px-2 py-2 dark:hover:bg-[#FFE81F25] rounded-md
+        duration-100\\\",\\\"children\\\":\\\"Films\\\"}],[\\\"$\\\",\\\"$L4\\\",\\\"/people\\\",{\\\"prefetch\\\":true,\\\"href\\\":\\\"/people\\\",\\\"className\\\":\\\"inline-flex
+        gap-1 items-center font-medium px-2 py-2 dark:hover:bg-[#FFE81F25] rounded-md
+        duration-100\\\",\\\"children\\\":\\\"People\\\"}],[\\\"$\\\",\\\"$L4\\\",\\\"/planets\\\",{\\\"prefetch\\\":true,\\\"href\\\":\\\"/planets\\\",\\\"className\\\":\\\"inline-flex
+        gap-1 items-center font-medium px-2 py-2 dark:hover:bg-[#FFE81F25] rounded-md
+        duration-100\\\",\\\"children\\\":\\\"Planets\\\"}],[\\\"$\\\",\\\"$L4\\\",\\\"/species\\\",{\\\"prefetch\\\":true,\\\"href\\\":\\\"/species\\\",\\\"className\\\":\\\"inline-flex
+        gap-1 items-center font-medium px-2 py-2 dark:hover:bg-[#FFE81F25] rounded-md
+        duration-100\\\",\\\"children\\\":\\\"Species\\\"}],[\\\"$\\\",\\\"$L4\\\",\\\"/vehicles\\\",{\\\"prefetch\\\":true,\\\"href\\\":\\\"/vehicles\\\",\\\"className\\\":\\\"inline-flex
+        gap-1 items-center font-medium px-2 py-2 dark:hover:bg-[#FFE81F25] rounded-md
+        duration-100\\\",\\\"children\\\":\\\"Vehicles\\\"}],[\\\"$\\\",\\\"$L4\\\",\\\"/starships\\\",{\\\"prefetch\\\":true,\\\"href\\\":\\\"/starships\\\",\\\"className\\\":\\\"inline-flex
+        gap-1 items-center font-medium px-2 py-2 dark:hover:bg-[#FFE81F25] rounded-md
+        duration-100\\\",\\\"children\\\":\\\"Starships\\\"}]],[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"https://github.com/SivaramPg/swapi.info\\\",\\\"className\\\":\\\"mr-4\\\",\\\"children\\\":[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":32,\\\"height\\\":32,\\\"className\\\":\\\"invert-0
+        dark:invert\\\",\\\"children\\\":[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"github\\\"}],[\\\"$\\\",\\\"use\\\",null,{\\\"href\\\":\\\"/icons/sprite.svg#github\\\"}]]}]}]]}]\\n\"])</script><script>self.__next_f.push([1,\"9:[\\\"$\\\",\\\"main\\\",null,{\\\"className\\\":\\\"w-full
+        min-h-[calc(100vh-64px)] relative\\\",\\\"children\\\":[[\\\"$\\\",\\\"$L11\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L12\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":[[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404:
+        This page could not be found.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"fontFamily\\\":\\\"system-ui,\\\\\\\"Segoe
+        UI\\\\\\\",Roboto,Helvetica,Arial,sans-serif,\\\\\\\"Apple Color Emoji\\\\\\\",\\\\\\\"Segoe
+        UI Emoji\\\\\\\"\\\",\\\"height\\\":\\\"100vh\\\",\\\"textAlign\\\":\\\"center\\\",\\\"display\\\":\\\"flex\\\",\\\"flexDirection\\\":\\\"column\\\",\\\"alignItems\\\":\\\"center\\\",\\\"justifyContent\\\":\\\"center\\\"},\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px
+        solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px
+        solid rgba(255,255,255,.3)}}\\\"}}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\",\\\"margin\\\":\\\"0
+        20px 0 0\\\",\\\"padding\\\":\\\"0 23px 0 0\\\",\\\"fontSize\\\":24,\\\"fontWeight\\\":500,\\\"verticalAlign\\\":\\\"top\\\",\\\"lineHeight\\\":\\\"49px\\\"},\\\"children\\\":404}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":{\\\"display\\\":\\\"inline-block\\\"},\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":{\\\"fontSize\\\":14,\\\"fontWeight\\\":400,\\\"lineHeight\\\":\\\"49px\\\",\\\"margin\\\":0},\\\"children\\\":\\\"This
+        page could not be found.\\\"}]}]]}]}]],[]],\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}],[\\\"$\\\",\\\"$L13\\\",null,{}]]}]\\n\"])</script><script>self.__next_f.push([1,\"a:[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"w-full
+        pt-8 pb-4 border-t\\\",\\\"children\\\":[\\\"$\\\",\\\"footer\\\",null,{\\\"className\\\":\\\"container
+        flex flex-col items-center justify-around w-full gap-4 px-4 mx-auto h-fit\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex
+        flex-wrap items-center justify-between w-full gap-4 md:gap-8\\\",\\\"children\\\":[[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"inline-flex
+        items-center gap-1 font-medium whitespace-nowrap\\\",\\\"children\\\":[\\\"Made
+        with\\\",[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":20,\\\"height\\\":20,\\\"className\\\":\\\"invert-0
+        dark:invert invert-0!\\\",\\\"children\\\":[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"heart\\\"}],[\\\"$\\\",\\\"use\\\",null,{\\\"href\\\":\\\"/icons/sprite.svg#heart\\\"}]]}],\\\"by\\\",[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"https://github.com/SivaramPg\\\",\\\"className\\\":\\\"font-bold
+        underline underline-offset-4\\\",\\\"children\\\":\\\"Sivaram P\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"hidden
+        ml-2 font-bold md:block\\\",\\\"children\\\":[\\\"\xA9\\\",2025]}]]}]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex
+        items-center justify-center gap-4\\\",\\\"children\\\":[[\\\"$\\\",\\\"a\\\",\\\"https://sivaramp.com\\\",{\\\"href\\\":\\\"https://sivaramp.com\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener
+        noreferrer\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex
+        items-center justify-center gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md\\\",\\\"children\\\":[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":28,\\\"height\\\":28,\\\"className\\\":\\\"invert-0
+        dark:invert\\\",\\\"children\\\":[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"website\\\"}],[\\\"$\\\",\\\"use\\\",null,{\\\"href\\\":\\\"/icons/sprite.svg#website\\\"}]]}]}]}],[\\\"$\\\",\\\"a\\\",\\\"https://github.com/SivaramPg\\\",{\\\"href\\\":\\\"https://github.com/SivaramPg\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener
+        noreferrer\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex
+        items-center justify-center gap-1 opacity-80 hover:opacity-100 hover:drop-shadow-md\\\",\\\"children\\\":[\\\"$\\\",\\\"svg\\\",null,{\\\"width\\\":28,\\\"height\\\":28,\\\"className\\\":\\\"invert-0
+        dark:invert\\\",\\\"children\\\":[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"github\\\"}],[\\\"$\\\",\\\"use\\\",null,{\\\"href\\\":\\\"/icons/sprite.svg#github\\\"}]]}]}]}]]}]]}],[\\\"$\\\",\\\"div\\\",null,{\\\"className\\\":\\\"flex
+        flex-wrap items-center justify-between w-full gap-8\\\",\\\"children\\\":[\\\"$\\\",\\\"p\\\",null,{\\\"className\\\":\\\"inline-flex
+        items-center gap-2 text-sm sm:text-base font-medium whitespace-nowrap\\\",\\\"children\\\":[\\\"Credits:\\\",\\\"
+        \\\",[\\\"$\\\",\\\"a\\\",null,{\\\"className\\\":\\\"underline underline-offset-4\\\",\\\"href\\\":\\\"https://github.com/phalt\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener
+        noreferrer\\\",\\\"children\\\":\\\"Paul Hallett\\\"}],\\\"\\u0026\\\",[\\\"$\\\",\\\"a\\\",null,{\\\"className\\\":\\\"underline
+        underline-offset-4\\\",\\\"href\\\":\\\"https://github.com/Juriy\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener
+        noreferrer\\\",\\\"children\\\":\\\"Juriy Bura\\\"}]]}]}]]}]}]\\n\"])</script><script>self.__next_f.push([1,\"b:[\\\"$\\\",\\\"a\\\",null,{\\\"href\\\":\\\"https://status.swapi.info\\\",\\\"target\\\":\\\"_blank\\\",\\\"rel\\\":\\\"noopener
+        noreferrer\\\",\\\"className\\\":\\\"border rounded-md border-white px-3 py-2
+        inline-flex items-center justify-center gap-2 text-xs font-medium dark:bg-[#FFE81F25]
+        hover:border-[#FFE81F] backdrop-blur-3xl group min-h-10 fixed right-6 bottom-6\\\",\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"relative
+        flex h-3 w-3\\\",\\\"children\\\":[[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"animate-ping
+        absolute inline-flex h-full w-full rounded-full bg-[#FFE81F] opacity-75\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"relative
+        inline-flex rounded-full h-3 w-3 bg-[#FFE81F]\\\"}]]}],[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"w-0
+        hidden group-hover:block overflow-hidden group-hover:w-fit group-hover:overflow-visible
+        transition-all duration-100\\\",\\\"children\\\":\\\"All Systems Normal\\\"}],[\\\"$\\\",\\\"span\\\",null,{\\\"className\\\":\\\"block
+        group-hover:hidden\\\",\\\"children\\\":\\\"Good\\\"}]]}]\\nc:[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[null,[\\\"$\\\",\\\"$L11\\\",null,{\\\"parallelRouterKey\\\":\\\"children\\\",\\\"error\\\":\\\"$undefined\\\",\\\"errorStyles\\\":\\\"$undefined\\\",\\\"errorScripts\\\":\\\"$undefined\\\",\\\"template\\\":[\\\"$\\\",\\\"$L12\\\",null,{}],\\\"templateStyles\\\":\\\"$undefined\\\",\\\"templateScripts\\\":\\\"$undefined\\\",\\\"notFound\\\":\\\"$undefined\\\",\\\"forbidden\\\":\\\"$undefined\\\",\\\"unauthorized\\\":\\\"$undefined\\\"}]]}]\\nd:[\\\"$\\\",\\\"$1\\\",\\\"c\\\",{\\\"children\\\":[[[\\\"$\\\",\\\"title\\\",null,{\\\"children\\\":\\\"404:
+        This page could not be found.\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":\\\"$9:props:children:0:props:notFound:0:1:props:style\\\",\\\"children\\\":[\\\"$\\\",\\\"div\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"style\\\",null,{\\\"dangerouslySetInnerHTML\\\":{\\\"__html\\\":\\\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px
+        solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px
+        solid rgba(255,255,255,.3)}}\\\"}}],[\\\"$\\\",\\\"h1\\\",null,{\\\"className\\\":\\\"next-error-h1\\\",\\\"style\\\":\\\"$9:props:children:0:props:notFound:0:1:props:children:props:children:1:props:style\\\",\\\"children\\\":404}],[\\\"$\\\",\\\"div\\\",null,{\\\"style\\\":\\\"$9:props:children:0:props:notFound:0:1:props:children:props:children:2:props:style\\\",\\\"children\\\":[\\\"$\\\",\\\"h2\\\",null,{\\\"style\\\":\\\"$9:props:children:0:props:notFound:0:1:props:children:props:children:2:props:children:props:style\\\",\\\"children\\\":\\\"This
+        page could not be found.\\\"}]}]]}]}]],null,[\\\"$\\\",\\\"$L14\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$15\\\",null,{\\\"name\\\":\\\"Next.MetadataOutlet\\\",\\\"children\\\":\\\"$@16\\\"}]}]]}]\\ne:[\\\"$\\\",\\\"$1\\\",\\\"h\\\",{\\\"children\\\":[[\\\"$\\\",\\\"meta\\\",null,{\\\"name\\\":\\\"robots\\\",\\\"content\\\":\\\"noindex\\\"}],[\\\"$\\\",\\\"$L17\\\",null,{\\\"children\\\":\\\"$@18\\\"}],[\\\"$\\\",\\\"div\\\",null,{\\\"hidden\\\":true,\\\"children\\\":[\\\"$\\\",\\\"$L19\\\",null,{\\\"children\\\":[\\\"$\\\",\\\"$15\\\",null,{\\\"name\\\":\\\"Next.Metadata\\\",\\\"children\\\":\\\"$@1a\\\"}]}]}],[\\\"$\\\",\\\"meta\\\",null,{\\\"name\\\":\\\"next-size-adjust\\\",\\\"content\\\":\\\"\\\"}]]}]\\n\"])</script><script>self.__next_f.push([1,\"18:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width,
+        initial-scale=1\\\"}]]\\n\"])</script><script>self.__next_f.push([1,\"1b:I[27201,[\\\"/_next/static/chunks/ff1a16fafef87110.js\\\",\\\"/_next/static/chunks/926350dec3317ae7.js\\\"],\\\"IconMark\\\"]\\n\"])</script><script>self.__next_f.push([1,\"1a:[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"SWAPI
+        Reborn - Star Wars APIs \\u0026 Explorer\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"The
+        Star Wars API, or \\\\\\\"swapi\\\\\\\" (Swah-pee)!. All the Star Wars data
+        you've ever wanted. A simpler alternative to swapi.dev.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"2\\\",{\\\"name\\\":\\\"keywords\\\",\\\"content\\\":\\\"star
+        wars,star wars api,star wars api explorer,swapi,sw-api,nextjs 13,vercel,swapi.dev
+        alternative,swapi.co alternative,alternative\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"3\\\",{\\\"property\\\":\\\"og:title\\\",\\\"content\\\":\\\"SWAPI
+        Reborn - Star Wars APIs \\u0026 Explorer\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"4\\\",{\\\"property\\\":\\\"og:description\\\",\\\"content\\\":\\\"The
+        Star Wars API, or \\\\\\\"swapi\\\\\\\" (Swah-pee)!. All the Star Wars data
+        you've ever wanted. A simpler alternative to swapi.dev.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"5\\\",{\\\"property\\\":\\\"og:site_name\\\",\\\"content\\\":\\\"SWAPI.INFO\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"6\\\",{\\\"property\\\":\\\"og:locale\\\",\\\"content\\\":\\\"en_US\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"7\\\",{\\\"property\\\":\\\"og:image\\\",\\\"content\\\":\\\"https://swapi.info/opengraph-image.jpg?opengraph-image.8d590f13.jpg\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"8\\\",{\\\"property\\\":\\\"og:image:width\\\",\\\"content\\\":\\\"1200\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"9\\\",{\\\"property\\\":\\\"og:image:height\\\",\\\"content\\\":\\\"628\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"10\\\",{\\\"property\\\":\\\"og:image:type\\\",\\\"content\\\":\\\"image/jpeg\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"11\\\",{\\\"property\\\":\\\"og:type\\\",\\\"content\\\":\\\"website\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"12\\\",{\\\"name\\\":\\\"twitter:card\\\",\\\"content\\\":\\\"summary_large_image\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"13\\\",{\\\"name\\\":\\\"twitter:creator\\\",\\\"content\\\":\\\"@SivaramPg\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"14\\\",{\\\"name\\\":\\\"twitter:title\\\",\\\"content\\\":\\\"SWAPI
+        Reborn - Star Wars APIs \\u0026 Explorer\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"15\\\",{\\\"name\\\":\\\"twitter:description\\\",\\\"content\\\":\\\"The
+        Star Wars API, or \\\\\\\"swapi\\\\\\\" (Swah-pee)!. All the Star Wars data
+        you've ever wanted. A simpler alternative to swapi.dev.\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"16\\\",{\\\"name\\\":\\\"twitter:image\\\",\\\"content\\\":\\\"https://swapi.info/twitter-image.jpg?twitter-image.8d590f13.jpg\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"17\\\",{\\\"name\\\":\\\"twitter:image:width\\\",\\\"content\\\":\\\"1200\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"18\\\",{\\\"name\\\":\\\"twitter:image:height\\\",\\\"content\\\":\\\"628\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"19\\\",{\\\"name\\\":\\\"twitter:image:type\\\",\\\"content\\\":\\\"image/jpeg\\\"}],[\\\"$\\\",\\\"link\\\",\\\"20\\\",{\\\"rel\\\":\\\"icon\\\",\\\"href\\\":\\\"/favicon.ico?favicon.c808e95a.ico\\\",\\\"sizes\\\":\\\"256x256\\\",\\\"type\\\":\\\"image/x-icon\\\"}],[\\\"$\\\",\\\"$L1b\\\",\\\"21\\\",{}]]\\n\"])</script><script>self.__next_f.push([1,\"16:null\\n\"])</script></body></html>"
+    headers:
+      CF-RAY:
+      - 9b00e7cb6b39dcd8-NVT
+      Cache-Control:
+      - private, no-store, max-age=0, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Thu, 18 Dec 2025 19:00:52 GMT
+      Nel:
+      - '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}'
+      Report-To:
+      - '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=A%2FH8SI0BD1Op3Wp3SjyeUT7STbamTQZksFdV%2BNmfnaS3fR%2ByKcTptKbFT6zSWvLv3SJaWbASxbJRI4P2G1zYdOod4RPwWOR5YQKvSvIeJErGsDyAQzo%3D"}]}'
+      Server:
+      - cloudflare
+      Transfer-Encoding:
+      - chunked
+      access-control-allow-headers:
+      - Content-Type
+      access-control-allow-methods:
+      - GET, OPTIONS
+      access-control-allow-origin:
+      - '*'
+      alt-svc:
+      - h3=":443"; ma=86400
+      cache-status:
+      - '"Next.js"; hit'
+      - '"Netlify Durable"; fwd=bypass'
+      - '"Netlify Edge"; fwd=miss'
+      cf-cache-status:
+      - EXPIRED
+      content-length:
+      - '52542'
+      etag:
+      - '"hrawresxxx14jg"'
+      netlify-vary:
+      - header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data,query
+      strict-transport-security:
+      - max-age=31536000
+      vary:
+      - rsc,next-router-state-tree,next-router-prefetch,next-router-segment-prefetch,Accept-Encoding
+      x-content-type-options:
+      - nosniff
+      x-nextjs-date:
+      - Thu, 18 Dec 2025 19:00:52 GMT
+      x-nextjs-prerender:
+      - 1, 1
+      x-nextjs-stale-time:
+      - '300'
+      x-nf-request-id:
+      - 01KCSDC6SSKWK2WM0VT3JPEK2V
+      x-powered-by:
+      - Next.js
+    status:
+      code: 404
+      message: Not Found
+version: 1
