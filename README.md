@@ -66,7 +66,17 @@ Reusable test fixtures:
 ### 1. Install Dependencies
 
 ```bash
+### Cloning the repository
+git clone https://github.com/AlexAlexandreAlves/api-batch-test.git
+
+### Run through the venv (virtual environment), for this, you need to create and activate it first
+python3 -m venv {$name}
+source {$name}/bin/activate 
+
+### Copy all folders and files in the main project and past into your recent created env-folder, and then install the dependencies:
+cd {your-venv-folder}
 pip install -r requirements.txt
+
 ```
 
 **Key Dependencies**:

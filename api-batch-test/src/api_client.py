@@ -7,18 +7,18 @@ from config import settings
 
 
 class APIClient:
-    """Cliente API com suporte a retry, rate-limit e formatação de URLs."""
+    """API client with retry, rate-limit, and URL formatting support."""
 
     def __init__(self, base_url: str, connect_timeout: float, read_timeout: float, retry_total: int, rate_sleep: float):
         """
-        Inicializa o cliente API.
+        Initialize the API client.
 
         Args:
-            base_url: URL base da API
-            connect_timeout: Timeout de conexão em segundos
-            read_timeout: Timeout de leitura em segundos
-            retry_total: Total de tentativas para requisições
-            rate_sleep: Tempo de espera entre requisições (rate-limit)
+            base_url: API Base URL
+            connect_timeout: Connection timeout in seconds
+            read_timeout: Read timeout in seconds
+            retry_total: Retry total attempts
+            rate_sleep: Wait time between requests to handle rate limiting
         """
         self.base_url = base_url.rstrip("/")
         self.session = requests.Session()
@@ -38,22 +38,22 @@ class APIClient:
         self.rate_sleep = rate_sleep
 
     def _build_url(self, endpoint: str, **path_params) -> str:
-        """Constrói a URL completa formatando parametros de caminho."""
+        """Build full URL with path parameters."""
         if path_params:
             endpoint = endpoint.format(**path_params)
-        # Se já é uma URL completa, retorna como está
+        # If endpoint is a full URL, return it as is
         if endpoint.startswith("http://") or endpoint.startswith("https://"):
             return endpoint
         return f"{self.base_url}/{endpoint.lstrip('/')}"
 
     def get(self, endpoint: str, params=None, **kwargs) -> requests.Response:
         """
-        Faz uma requisição GET.
+        Make a GET request.
 
         Args:
-            endpoint: Endpoint da API (pode ter placeholders como {id})
-            params: Parâmetros de query
-            **kwargs: Parâmetros de caminho como id=123
+            endpoint: API endpoint (can have placeholders like {id})
+            params: Query parameters
+            **kwargs: Path parameters such as id=123
 
         Returns:
             Response object
@@ -64,12 +64,12 @@ class APIClient:
 
     def post(self, endpoint: str, data=None, **kwargs) -> requests.Response:
         """
-        Faz uma requisição POST.
+        Make a POST request.
 
         Args:
-            endpoint: Endpoint da API
-            data: Dados a enviar no body (será convertido para JSON)
-            **kwargs: Parâmetros de caminho
+            endpoint: API endpoint
+            data: Data to send in the body (will be converted to JSON)
+            **kwargs: Path parameters
 
         Returns:
             Response object
@@ -80,12 +80,12 @@ class APIClient:
 
     def put(self, endpoint: str, data=None, **kwargs) -> requests.Response:
         """
-        Faz uma requisição PUT.
+        Make a PUT request.
 
         Args:
-            endpoint: Endpoint da API
-            data: Dados a enviar no body (será convertido para JSON)
-            **kwargs: Parâmetros de caminho
+            endpoint: API endpoint
+            data: Data to send in the body (will be converted to JSON)
+            **kwargs: Path parameters
 
         Returns:
             Response object
@@ -96,11 +96,11 @@ class APIClient:
 
     def delete(self, endpoint: str, **kwargs) -> requests.Response:
         """
-        Faz uma requisição DELETE.
+        Make a DELETE request.
 
         Args:
-            endpoint: Endpoint da API
-            **kwargs: Parâmetros de caminho
+            endpoint: API endpoint
+            **kwargs: Path parameters
 
         Returns:
             Response object
