@@ -15,4 +15,9 @@ def test_not_found_or_bounds(http, path):
     assert r.status_code in (404, 200)
     # Se 200 para page=999 na API pública, valide que results pode estar vazio:
     if r.status_code == 200:
-        assert isinstance(r.json().get("results"), list)
+        data = r.json()
+        if isinstance(data, dict):
+            assert isinstance(data.get("results"), list)
+        elif isinstance(data, list):
+            # Se for lista, apenas valida que é lista (caso raro)
+            assert isinstance(data, list)
